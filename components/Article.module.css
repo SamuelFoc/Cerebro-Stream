@@ -1,7 +1,3 @@
-.mainContainer {
-  padding: 50px;
-}
-
 .articleContainer {
   padding: 2% 3%;
   font-family: var(--my-font-family);
@@ -40,4 +36,44 @@
 }
 .articleContainer > li {
   margin-bottom: 10px;
+}
+
+/* Mobiles (0 - 769px) */
+@media only screen and (max-width: 769px) {
+  .mainCcontainer {
+    width: 100vw;
+    padding: 0;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .articleContainer {
+    font-size: 20px;
+  }
+  .articleContainer > p {
+    font-size: 15px;
+  }
+  .articleContainer ul {
+    font-size: 15px;
+  }
+}
+
+/* Small screens, laptops (769px — 1200px) */
+@media only screen and (min-width: 769px) and (max-width: 1800px) {
+  .title {
+    font-size: 18px;
+  }
+  .articleContainer {
+    font-size: 24px;
+  }
+  .articleContainer > p {
+    font-size: 17px;
+  }
+  .articleContainer ul {
+    font-size: 17px;
+  }
+}
+
+/* Desktops, large screens (1200px — 2000px) */
+@media only screen and (min-width: 1200px) {
 }
