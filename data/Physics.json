@@ -15,12 +15,12 @@
           {
             "title": "Material point",
             "img": "/MechanicsIcon.png",
-            "directUrl": "/Subjects/Physics/Mechanics/Materialpoint"
+            "directUrl": "/Subjects/Physics/Mechanics/MaterialPoint"
           },
           {
             "title": "Dew point",
             "img": "/MechanicsIcon.png",
-            "directUrl": "/Subjects/Physics/Mechanics/Dewpoint"
+            "directUrl": "/Subjects/Physics/Mechanics/DewPoint"
           }
         ]
       }
