@@ -54,6 +54,9 @@
 }
 
 @media only screen and (max-width: 622px) {
+  .imageContainer > img {
+    max-height: 130px;
+  }
   .container {
     width: calc(100vw - 15px);
   }
