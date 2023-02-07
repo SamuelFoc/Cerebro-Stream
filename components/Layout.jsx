@@ -9,7 +9,7 @@ export default function Layout({ children }) {
         src="/images/Logo.png"
         title={{ firstLine: "Get Smarter", secondLine: "Together" }}
         hrefPrefix="/Subjects"
-        items={["Math", "Physics", "WebDev", "Datascience"]}
+        items={["Physics", "WebDev"]}
       />
       <main className={styles.mainContainer}>{children}</main>
       <Footer />
