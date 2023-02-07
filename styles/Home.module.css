@@ -1,0 +1,113 @@
+.circle {
+  position: absolute;
+  right: -350px;
+  bottom: -500px;
+  z-index: -1;
+}
+
+.welcome {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  position: absolute;
+}
+
+.titleText {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  position: absolute;
+}
+
+@media only screen and (max-width: 580px) {
+  .titleText {
+    left: 15px;
+    top: 30%;
+    font-size: 38px;
+  }
+  .welcome {
+    left: 15px;
+    top: 20%;
+    font-size: 40px;
+  }
+  .homeImage {
+    display: none;
+  }
+  .circle {
+    right: -500px;
+  }
+}
+
+@media only screen and (min-width: 580px) and (max-width: 880px) {
+  .welcome {
+    right: 20%;
+    top: 10%;
+    font-size: 50px;
+  }
+  .titleText {
+    right: 5px;
+    top: 20%;
+    font-size: 38px;
+  }
+  .homeImage {
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    z-index: -1;
+  }
+  .circle {
+    right: -500px;
+  }
+}
+
+@media only screen and (min-width: 880px) and (max-width: 1065px) {
+  .welcome {
+    right: 17%;
+    top: 20%;
+    font-size: 55px;
+  }
+  .titleText {
+    right: 5%;
+    top: 30%;
+    font-size: 38px;
+  }
+  .homeImage {
+    height: 70%;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+@media only screen and (min-width: 1065px) and (max-width: 1300px) {
+  .titleText {
+    right: 17%;
+    top: 34%;
+    font-size: 46px;
+  }
+  .welcome {
+    right: 28%;
+    top: 20%;
+    font-size: 65px;
+  }
+  .homeImage {
+    height: 80%;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .titleText {
+    right: 17%;
+    top: 34%;
+    font-size: 56px;
+  }
+  .welcome {
+    right: 30%;
+    top: 20%;
+    font-size: 75px;
+  }
+  .homeImage {
+    height: 80%;
+    position: absolute;
+    z-index: -1;
+  }
+}

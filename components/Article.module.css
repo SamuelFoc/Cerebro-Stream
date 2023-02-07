@@ -1,0 +1,43 @@
+.mainContainer {
+  padding: 50px;
+}
+
+.articleContainer {
+  padding: 2% 3%;
+  font-family: var(--my-font-family);
+  font-size: 25px;
+}
+.title {
+  color: rgb(169, 169, 169);
+  font-family: var(--my-font-family);
+}
+
+.articleContainer > h1 {
+  margin-bottom: 45px;
+  color: var(--my-blue);
+}
+.articleContainer > h2 {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  color: var(--my-blue);
+}
+.articleContainer > h3 {
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+.articleContainer > h4 {
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.articleContainer > p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.articleContainer > ul > li {
+  margin: 15px 30px;
+}
+.articleContainer > li {
+  margin-bottom: 10px;
+}

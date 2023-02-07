@@ -1,0 +1,39 @@
+{
+  "Subject": "WebDev",
+  "SubjectBanner": {
+    "title": "Web Development",
+    "image": "programming.png",
+    "text": "Computer programming is the process of performing a particular computation (or more generally, accomplishing a specific computing result), usually by designing and building an executable computer program. Programming involves tasks such as analysis, generating algorithms, profiling algorithms' accuracy and resource consumption, and the implementation of algorithms (usually in a chosen programming language, commonly referred to as coding). The source code of a program is written in one or more languages that are intelligible to programmers, rather than machine code, which is directly executed by the central processing unit. The purpose of programming is to find a sequence of instructions that will automate the performance of a task (which can be as complex as an operating system) on a computer, often for solving a given problem. Proficient programming thus usually requires expertise in several different subjects, including knowledge of the application domain, specialized algorithms, and formal logic."
+  },
+  "GridTag": {
+    "gridTitle": "Let your imagination guide you...",
+    "Topics": [
+      {
+        "title": "HTML",
+        "img": "/HTMLIcon.png",
+        "articles": [
+          {
+            "title": "HTML Introduction",
+            "img": "/HTMLIcon.png",
+            "directUrl": "/Subjects/WebDev/HTML/Introduction"
+          }
+        ]
+      },
+      {
+        "title": "CSS",
+        "img": "/CSSIcon.png",
+        "articles": []
+      },
+      {
+        "title": "JS Basics",
+        "img": "/JSBasicsIcon.png",
+        "articles": []
+      },
+      {
+        "title": "Vanilla Page",
+        "img": "/VanillaPageIcon.png",
+        "articles": []
+      }
+    ]
+  }
+}

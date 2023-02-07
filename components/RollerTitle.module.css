@@ -1,0 +1,60 @@
+.container {
+  width: calc(100vw - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imageContainer {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageContainer > img {
+  height: 270px;
+}
+
+.rollerContainer {
+  padding: 20px 30px;
+  max-width: 60%;
+  display: flex;
+  overflow-x: auto;
+}
+
+.rollerItem {
+  margin: 40px 15px;
+  height: 175px;
+  min-width: 175px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--my-tags-color);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.119);
+  transition: 0.2s;
+}
+.rollerItem:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.rollerItemImage {
+  height: 110px;
+}
+
+.rollerItemTitle {
+  margin-bottom: 10px;
+  font-family: var(--my-font-family);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+@media only screen and (min-width: 2000px) {
+  .rollerItem {
+    height: 270px;
+    width: 270px;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "getsmart",
+  "version": "1.0.0",
+  "description": "Educational web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "Samuel Šipikal",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "fs": "^0.0.1-security",
+    "katex": "^0.16.4",
+    "markdown-it": "^13.0.1",
+    "markdown-it-texmath": "^1.0.0",
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

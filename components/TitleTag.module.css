@@ -1,0 +1,72 @@
+.container {
+  background-color: var(--my-tags-color);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.112);
+  transform: translateX(-50px);
+  position: relative;
+}
+
+.row {
+  display: flex;
+  padding: 20px 7%;
+}
+
+.text {
+  font-weight: 300;
+  font-family: var(--my-font-family);
+  padding-left: 50px;
+}
+
+.title {
+  font-weight: 600;
+  font-family: var(--my-font-family);
+  color: var(--my-blue);
+  padding-left: 20px;
+}
+
+/* Mobiles (0 - 769px) */
+@media only screen and (max-width: 769px) {
+  .container {
+    width: 100vw;
+  }
+  .title {
+    font-size: 22px;
+  }
+  .text {
+    font-size: 16px;
+    max-height: 270px;
+    overflow-y: auto;
+    padding: 20px 20px;
+  }
+  .image {
+    height: 110px;
+    position: absolute;
+    top: -50px;
+    right: 20px;
+    z-index: -1;
+  }
+}
+
+/* Small screens, laptops (769px — 1200px) */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .container {
+    width: 100vw;
+  }
+  .text {
+    font-size: 16px;
+    max-height: 250px;
+    overflow-y: auto;
+  }
+  .image {
+    height: 250px;
+  }
+}
+
+/* Desktops, large screens (1200px — 2000px) */
+@media only screen and (min-width: 1200px) {
+  .text {
+    font-size: 20px;
+  }
+  .image {
+    height: 300px;
+  }
+}

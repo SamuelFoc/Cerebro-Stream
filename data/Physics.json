@@ -1,0 +1,44 @@
+{
+  "Subject": "Physics",
+  "SubjectBanner": {
+    "title": "Physics",
+    "image": "PhysicsIcon.png",
+    "text": "Physics is the natural science that studies matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force. Physics is one of the most fundamental scientific disciplines, with its main goal being to understand how the universe behaves. A scientist who specializes in the field of physics is called a physicist."
+  },
+  "GridTag": {
+    "gridTitle": "Explore the beauty of Physics...",
+    "Topics": [
+      {
+        "title": "Mechanics",
+        "img": "/MechanicsIcon.png",
+        "articles": [
+          {
+            "title": "Material point",
+            "img": "/MechanicsIcon.png",
+            "directUrl": "/Subjects/Physics/Mechanics/Materialpoint"
+          },
+          {
+            "title": "Dew point",
+            "img": "/MechanicsIcon.png",
+            "directUrl": "/Subjects/Physics/Mechanics/Dewpoint"
+          }
+        ]
+      },
+      {
+        "title": "Electronics",
+        "img": "/ElectronicsIcon.png",
+        "articles": []
+      },
+      {
+        "title": "Radiology",
+        "img": "/RadiologyIcon.png",
+        "articles": []
+      },
+      {
+        "title": "Optics",
+        "img": "/OpticsIcon.png",
+        "articles": []
+      }
+    ]
+  }
+}

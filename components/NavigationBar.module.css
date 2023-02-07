@@ -1,0 +1,172 @@
+/* Full-screen styling */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  z-index: 2;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  color: #df5927;
+}
+
+.itemList {
+  min-width: 60%;
+  list-style: none;
+}
+.itemList li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.itemList li > a {
+  padding: 8px 15px;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+.itemList li > a:hover {
+  background-color: #3383ff;
+  color: white;
+}
+
+.smallItemList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 1s;
+  position: absolute;
+  z-index: 1;
+}
+.smallItemList li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 35px;
+
+  transition: 0.1s;
+}
+.smallItemList li:hover {
+  background-color: #3383ff;
+}
+.smallItemList li:hover a {
+  color: white;
+}
+.smallItemList li > a {
+  padding: 4px 10%;
+  border-radius: 15px;
+}
+
+.barsIcon {
+  padding: 8px 10px;
+
+  color: white;
+  background-color: #3383ff;
+  border: none;
+
+  border-radius: 8px;
+  font-size: 26px;
+}
+.barsIcon:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* Hide the smallItemBar smoothly */
+.hiddenSmallItemBar {
+  position: absolute;
+  transform: translateY(-350px);
+  transition: 1s;
+}
+
+/* Mobiles (0 - 769px) */
+@media only screen and (max-width: 769px) {
+  .smallItemList {
+    width: 100%;
+    position: absolute;
+
+    background-color: rgba(255, 255, 255, 0.729);
+    backdrop-filter: blur(8px);
+    border-bottom: 5px solid #3383ff;
+  }
+  .itemList {
+    display: none;
+  }
+  .logo h1 {
+    font-size: 24px;
+    padding-left: 5px;
+  }
+  .logoImage {
+    height: 60px;
+    width: 45px;
+  }
+  .navBar {
+    padding: 10px 15px;
+    height: 15vh;
+  }
+}
+
+/* Small screens, laptops (769px — 1200px) */
+@media only screen and (min-width: 622px) and (max-width: 1200px) {
+  .smallItemList {
+    position: absolute;
+    right: 10px;
+
+    background-color: rgba(255, 255, 255, 0.194);
+    backdrop-filter: blur(6px);
+
+    width: 30%;
+    border: 3.5px solid #3383ff;
+    border-radius: 0 0 8px 8px;
+  }
+  .itemList {
+    display: none;
+  }
+  .logo h1 {
+    font-size: 32px;
+    padding-left: 10px;
+  }
+  .logoImage {
+    height: 80px;
+    width: 65px;
+  }
+  .navBar {
+    padding: 10px 35px;
+    height: 14vh;
+  }
+}
+
+/* Desktops, large screens (1200px — 2000px) */
+@media only screen and (min-width: 1200px) {
+  .smallItemList {
+    display: none;
+  }
+  .itemList {
+    display: flex;
+    justify-content: space-between;
+  }
+  .barsIcon {
+    display: none;
+  }
+  .logo h1 {
+    font-size: 36px;
+    margin-left: 10px;
+  }
+  .navBar {
+    height: 16vh;
+    padding: 10px 35px;
+  }
+}
