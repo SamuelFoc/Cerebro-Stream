@@ -18,21 +18,6 @@
             "directUrl": "/Subjects/WebDev/HTML/Introduction"
           }
         ]
-      },
-      {
-        "title": "CSS",
-        "img": "/CSSIcon.png",
-        "articles": []
-      },
-      {
-        "title": "JS Basics",
-        "img": "/JSBasicsIcon.png",
-        "articles": []
-      },
-      {
-        "title": "Vanilla Page",
-        "img": "/VanillaPageIcon.png",
-        "articles": []
       }
     ]
   }

@@ -23,21 +23,6 @@
             "directUrl": "/Subjects/Physics/Mechanics/Dewpoint"
           }
         ]
-      },
-      {
-        "title": "Electronics",
-        "img": "/ElectronicsIcon.png",
-        "articles": []
-      },
-      {
-        "title": "Radiology",
-        "img": "/RadiologyIcon.png",
-        "articles": []
-      },
-      {
-        "title": "Optics",
-        "img": "/OpticsIcon.png",
-        "articles": []
       }
     ]
   }
