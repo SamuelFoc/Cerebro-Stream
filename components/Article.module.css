@@ -56,6 +56,15 @@
   .articleContainer ul {
     font-size: 15px;
   }
+  .articleContainer span {
+    font-size: 12px;
+  }
+  .articleContainer eqn {
+    overflow-x: auto;
+  }
+  .articleContainer img {
+    max-width: 80vw;
+  }
 }
 
 /* Small screens, laptops (769px — 1200px) */
@@ -72,8 +81,23 @@
   .articleContainer ul {
     font-size: 17px;
   }
+  .articleContainer span {
+    font-size: 18px;
+  }
+  .articleContainer eqn {
+    overflow-x: auto;
+  }
+  .articleContainer img {
+    max-width: 80vw;
+  }
 }
 
 /* Desktops, large screens (1200px — 2000px) */
 @media only screen and (min-width: 1200px) {
+  .articleContainer eqn {
+    overflow-x: auto;
+  }
+  .articleContainer img {
+    max-width: 80vw;
+  }
 }
