@@ -13,9 +13,19 @@
         "img": "/HTMLIcon.png",
         "articles": [
           {
-            "title": "HTML Introduction",
+            "title": "Introduction",
             "img": "/HTMLIcon.png",
-            "directUrl": "/Subjects/WebDev/HTML/HTMLIntroduction"
+            "directUrl": "/Subjects/WebDev/HTML/Introduction"
+          },
+          {
+            "title": "Elements and Attributes",
+            "img": "/HTMLIcon.png",
+            "directUrl": "/Subjects/WebDev/HTML/ElementsandAttributes"
+          },
+          {
+            "title": "Tables",
+            "img": "/HTMLIcon.png",
+            "directUrl": "/Subjects/WebDev/HTML/Tables"
           }
         ]
       }
