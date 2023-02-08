@@ -15,10 +15,14 @@ export default function RollerTitle(props) {
           return (
             <Link
               key={item.title}
-              href={hrefBase + item.title.replace(" ", "")}
+              href={hrefBase + item.directUrl.split("/").pop()}
               className={styles.rollerItem}
             >
-              <h5 className={styles.rollerItemTitle}>{item.title}</h5>
+              <h5 className={styles.rollerItemTitle}>
+                {item.title.length > 15
+                  ? item.title.slice(0, 15) + "..."
+                  : item.title}
+              </h5>
               <img
                 className={styles.rollerItemImage}
                 src={"/images/" + item.img}
