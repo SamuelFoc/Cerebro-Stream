@@ -26,6 +26,32 @@
             "title": "Tables",
             "img": "/HTMLIcon.png",
             "directUrl": "/Subjects/WebDev/HTML/Tables"
+          },
+          {
+            "title": "Forms",
+            "img": "/HTMLIcon.png",
+            "directUrl": "/Subjects/WebDev/HTML/Forms"
+          }
+        ]
+      },
+      {
+        "title": "CSS",
+        "img": "/CSSIcon.png",
+        "articles": [
+          {
+            "title": "Introduction",
+            "img": "/CSSIcon.png",
+            "directUrl": "/Subjects/WebDev/CSS/Introduction"
+          },
+          {
+            "title": "Best practices",
+            "img": "/CSSIcon.png",
+            "directUrl": "/Subjects/WebDev/CSS/Bestpractices"
+          },
+          {
+            "title": "Layout and Responsivity",
+            "img": "/CSSIcon.png",
+            "directUrl": "/Subjects/WebDev/CSS/LayoutResponsivity"
           }
         ]
       }
