@@ -13,14 +13,45 @@
         "img": "/HTMLIcon.png",
         "articles": [
           {
-            "title": "HTML Introduction",
+            "title": "Introduction",
             "img": "/HTMLIcon.png",
-            "directUrl": "/Subjects/WebDev/HTML/HTMLIntroduction"
+            "directUrl": "/Subjects/WebDev/HTML/Introduction"
           },
           {
-            "title": "Starting",
+            "title": "Elements and Attributes",
             "img": "/HTMLIcon.png",
-            "directUrl": "/Subjects/WebDev/HTML/Starting"
+            "directUrl": "/Subjects/WebDev/HTML/ElementsandAttributes"
+          },
+          {
+            "title": "Tables",
+            "img": "/HTMLIcon.png",
+            "directUrl": "/Subjects/WebDev/HTML/Tables"
+          },
+          {
+            "title": "Forms",
+            "img": "/HTMLIcon.png",
+            "directUrl": "/Subjects/WebDev/HTML/Forms"
+          }
+        ]
+      },
+      {
+        "title": "CSS",
+        "img": "/CSSIcon.png",
+        "articles": [
+          {
+            "title": "Introduction",
+            "img": "/CSSIcon.png",
+            "directUrl": "/Subjects/WebDev/CSS/Introduction"
+          },
+          {
+            "title": "Best practices",
+            "img": "/CSSIcon.png",
+            "directUrl": "/Subjects/WebDev/CSS/Bestpractices"
+          },
+          {
+            "title": "Layout and Responsivity",
+            "img": "/CSSIcon.png",
+            "directUrl": "/Subjects/WebDev/CSS/LayoutResponsivity"
           }
         ]
       }

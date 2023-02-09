@@ -1,5 +1,4 @@
 .articleContainer {
-  padding: 2% 3%;
   font-family: var(--my-font-family);
   font-size: 25px;
 }
@@ -38,6 +37,15 @@
   margin-bottom: 10px;
 }
 
+.articleContainer > pre {
+  background-color: rgba(0, 0, 0, 0.654);
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin: 20px 50px;
+  color: white;
+  font-size: 15px;
+}
+
 /* Mobiles (0 - 769px) */
 @media only screen and (max-width: 769px) {
   .mainCcontainer {
@@ -69,6 +77,9 @@
 
 /* Small screens, laptops (769px — 1200px) */
 @media only screen and (min-width: 769px) and (max-width: 1800px) {
+  .articleContainer {
+    padding: 2% 0%;
+  }
   .title {
     font-size: 18px;
   }
@@ -94,6 +105,9 @@
 
 /* Desktops, large screens (1200px — 2000px) */
 @media only screen and (min-width: 1200px) {
+  .articleContainer {
+    padding: 2% 15%;
+  }
   .articleContainer eqn {
     overflow-x: auto;
   }
