@@ -1,0 +1,28 @@
+{
+  "Subject": "BackEnd",
+  "SubjectBanner": {
+    "title": "BackEnd",
+    "image": "BackendIcon.png",
+    "text": "Backend development using Node.js refers to the use of Node.js as a server-side runtime environment for building and running web applications. Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to build scalable and fast server-side applications. It is built on top of Google's V8 JavaScript engine and is designed to be highly efficient and lightweight.
+
+    Node.js is particularly well-suited for real-time applications, such as chat applications or online games, due to its ability to handle a large number of concurrent connections efficiently. It also has a large and active community of developers, who have created a vast library of packages and modules to extend its functionality.
+    
+    Backend development using Node.js requires a good understanding of JavaScript and its core concepts, as well as an understanding of server-side programming and database design. With its fast performance, scalability, and large community, Node.js is a popular choice for building high-performance, scalable backend applications."
+  },
+  "GridTag": {
+    "gridTitle": "Explore the ways of Backend Development...",
+    "Topics": [
+      {
+        "title": "Node JS",
+        "img": "/NodeJSIcon.png",
+        "articles": [
+          {
+            "title": "Introduction",
+            "img": "/NodeJSIcon.png",
+            "directUrl": "/Subjects/BackEnd/NodeJS/Introduction"
+          }
+        ]
+      }
+    ]
+  }
+}

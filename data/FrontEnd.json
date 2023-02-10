@@ -1,0 +1,120 @@
+{
+  "Subject": "FrontEnd",
+  "SubjectBanner": {
+    "title": "Front End Development",
+    "image": "programming.png",
+    "text": "Front-end development refers to the development of the client-side of a web application. It encompasses the design, layout, and interaction of a website or web application as experienced by users. Front-end developers use HTML, CSS, and JavaScript to build user interfaces and create engaging, interactive user experiences. They are responsible for ensuring that a website looks good, works smoothly, and is accessible to all users, regardless of their device or browser. Front-end development is a crucial aspect of web development and requires a strong understanding of user experience, design principles, and web technologies."
+  },
+  "GridTag": {
+    "gridTitle": "Make yourself a better developer...",
+    "Topics": [
+      {
+        "title": "HTML",
+        "img": "/HTMLIcon.png",
+        "articles": [
+          {
+            "title": "Introduction",
+            "img": "/HTMLIcon.png",
+            "directUrl": "/Subjects/FrontEnd/HTML/Introduction"
+          },
+          {
+            "title": "Elements and Attributes",
+            "img": "/HTMLIcon.png",
+            "directUrl": "/Subjects/FrontEnd/HTML/ElementsandAttributes"
+          },
+          {
+            "title": "Tables",
+            "img": "/HTMLIcon.png",
+            "directUrl": "/Subjects/FrontEnd/HTML/Tables"
+          },
+          {
+            "title": "Forms",
+            "img": "/HTMLIcon.png",
+            "directUrl": "/Subjects/FrontEnd/HTML/Forms"
+          }
+        ]
+      },
+      {
+        "title": "HTML exercises",
+        "img": "/HTMLExercisesIcon.png",
+        "articles": [
+          {
+            "title": "Exercises 1",
+            "img": "/HTMLExercisesIcon.png",
+            "directUrl": "/Subjects/FrontEnd/HTMLexercises/Exercises1"
+          }
+        ]
+      },
+      {
+        "title": "CSS",
+        "img": "/CSSIcon.png",
+        "articles": [
+          {
+            "title": "Introduction",
+            "img": "/CSSIcon.png",
+            "directUrl": "/Subjects/FrontEnd/CSS/Introduction"
+          },
+          {
+            "title": "Best practices",
+            "img": "/CSSIcon.png",
+            "directUrl": "/Subjects/FrontEnd/CSS/Bestpractices"
+          },
+          {
+            "title": "Layout and Responsivity",
+            "img": "/CSSIcon.png",
+            "directUrl": "/Subjects/FrontEnd/CSS/LayoutResponsivity"
+          }
+        ]
+      },
+      {
+        "title": "CSS Exercises",
+        "img": "/CSSExercisesIcon.png",
+        "articles": [
+          {
+            "title": "Exercises 1",
+            "img": "/CSSExercisesIcon.png",
+            "directUrl": "/Subjects/FrontEnd/CSSExercises/Exercises1"
+          }
+        ]
+      },
+      {
+        "title": "JS Basics",
+        "img": "/JSBasicsIcon.png",
+        "articles": [
+          {
+            "title": "Introduction",
+            "img": "/JSBasicsIcon.png",
+            "directUrl": "/Subjects/FrontEnd/JSBasics/Introduction"
+          },
+          {
+            "title": "DOM",
+            "img": "/JSBasicsIcon.png",
+            "directUrl": "/Subjects/FrontEnd/JSBasics/DOM"
+          }
+        ]
+      },
+      {
+        "title": "JS Exercises",
+        "img": "/JSExercisesIcon.png",
+        "articles": [
+          {
+            "title": "JS Exercises",
+            "img": "/JSExercisesIcon.png",
+            "directUrl": "/Subjects/FrontEnd/JSExercises/Exercises1"
+          }
+        ]
+      },
+      {
+        "title": "JS Project",
+        "img": "/JSProjectIcon.png",
+        "articles": [
+          {
+            "title": "JS Project",
+            "img": "/JSProjectIcon.png",
+            "directUrl": "/Subjects/FrontEnd/JSProject/Project"
+          }
+        ]
+      }
+    ]
+  }
+}
