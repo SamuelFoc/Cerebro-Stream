@@ -5,6 +5,7 @@
 .title {
   color: rgb(169, 169, 169);
   font-family: var(--my-font-family);
+  margin-top: 50px;
 }
 
 .articleContainer > h1 {
@@ -21,13 +22,19 @@
   margin-top: 25px;
 }
 .articleContainer > h4 {
+  border-left: 5px solid rgb(0, 149, 255);
+  padding-left: 5px;
   margin-bottom: 15px;
-  margin-top: 25px;
+  margin-top: 45px;
 }
 
 .articleContainer > p {
   margin-bottom: 10px;
   margin-top: 10px;
+}
+
+.articleContainer > ol > li {
+  margin: 15px 30px;
 }
 
 .articleContainer > ul > li {
@@ -37,8 +44,47 @@
   margin-bottom: 10px;
 }
 
+.articleContainer > ul > li > pre {
+  background-color: rgba(0, 0, 0, 0.798);
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin: 20px 50px;
+  color: white;
+  font-size: 15px;
+}
+
+.articleContainer > ol > li > ul > li > pre {
+  background-color: rgba(0, 0, 0, 0.798);
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin: 20px 50px;
+  color: white;
+  font-size: 15px;
+}
+.articleContainer > ol > li > ul > li {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 10px 15px;
+}
+.articleContainer > ol > li {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 25px;
+}
+.articleContainer > ol > li > pre {
+  background-color: rgba(0, 0, 0, 0.798);
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin: 20px 50px;
+  color: white;
+  font-size: 15px;
+}
+.articleContainer > ol {
+  margin: 40px 0px;
+}
+
 .articleContainer > pre {
-  background-color: rgba(0, 0, 0, 0.654);
+  background-color: rgba(0, 0, 0, 0.798);
   border-radius: 15px;
   padding: 15px 20px;
   margin: 20px 50px;
@@ -106,12 +152,18 @@
 /* Desktops, large screens (1200px — 2000px) */
 @media only screen and (min-width: 1200px) {
   .articleContainer {
-    padding: 2% 15%;
+    padding: 0% 15%;
   }
   .articleContainer eqn {
     overflow-x: auto;
   }
   .articleContainer img {
     max-width: 80vw;
+  }
+  .title {
+    transform: translateX(15%);
+  }
+  .articleContainer > h4 {
+    font-size: 18px;
   }
 }
