@@ -7,7 +7,9 @@ export default function ItemBox(props) {
   if (props?.directUrl) {
     href = props.directUrl;
   } else {
-    href = props.baseUrl ? props.baseUrl + "/" + props.title : props.title;
+    href = props.baseUrl
+      ? props.baseUrl + "/" + props.title.replace(/ /g, "")
+      : props.title;
   }
 
   return (
