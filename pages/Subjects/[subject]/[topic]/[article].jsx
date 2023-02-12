@@ -2,16 +2,13 @@ import Layout from "../../../../components/Layout";
 import RollerTitle from "../../../../components/RollerTitle";
 import Article from "../../../../components/Article";
 import {
-  getAllArticlesOfSubjectsTopic,
+  getAllArticlesOf,
   getPaths,
   getArticle,
 } from "../../../../lib/dataFetcher";
 
 export async function getStaticProps({ params }) {
-  const subjectData = await getAllArticlesOfSubjectsTopic(
-    params.subject,
-    params.topic
-  );
+  const articles = await getAllArticlesOf(params.subject, params.topic);
 
   const article = await getArticle(
     params.subject,
@@ -21,7 +18,8 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
-      subjectData: subjectData,
+      actualTopic: params.topic,
+      articles: articles,
       articleData: {
         path: `${params.subject} > ${params.topic} > ${params.article}`,
         subject: params.subject,
@@ -47,8 +45,8 @@ export default function ArticlePage(props) {
       <RollerTitle
         topic={props?.articleData?.topic}
         subject={props?.articleData?.subject}
-        titleImg={`/images/${props?.subjectData?.actualTopic}Icon.png`}
-        items={props?.subjectData?.articles}
+        titleImg={`/images/${props?.actualTopic}Icon.png`}
+        items={props?.articles}
       />
       <Article
         title={props?.articleData?.path}

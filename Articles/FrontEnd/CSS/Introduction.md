@@ -14,6 +14,10 @@ CSS is added to a HTML page using the &lt;style&gt; element, which is placed ins
 
 In this example, the selector h1 selects the &lt;h1&gt; element, and the declaration block specifies the color property with a value of red.
 
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/CSS/intro1.png" width="80%" alt="Image vs code"/>
+</div>
+
 #### CSS Selectors
 
 CSS selectors are used to select elements on a HTML page. There are several different types of selectors, including:
@@ -21,6 +25,14 @@ CSS selectors are used to select elements on a HTML page. There are several diff
 - `Element` Selectors: Select elements by their tag name, such as h1 or p.
 - `Class` Selectors: Select elements by their class attribute, such as .example.
 - `ID` Selectors: Select elements by their id attribute, such as #example.
+
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/CSS/intro2.png" width="80%" alt="Image vs code"/>
+</div>
+
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/CSS/intro3.png" width="80%" alt="Image vs code"/>
+</div>
 
 #### CSS Properties
 
@@ -33,9 +45,21 @@ CSS properties are used to control the layout, colors, fonts, and other visual e
 - `margin` for setting the margin around an element
 - `padding` for setting the padding within an element
 
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/CSS/intro4.png" width="80%" alt="Image vs code"/>
+</div>
+
 #### Inheritance and Cascading
 
 CSS uses a cascading system to determine which styles are applied to an element. When multiple styles are defined for the same element, the styles that are lower in the source code will override the styles that are higher. Additionally, styles can be inherited from parent elements to child elements.
+
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/CSS/intro5.png" width="80%" alt="Image vs code"/>
+</div>
+
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/CSS/intro6.png" width="80%" alt="Image vs code"/>
+</div>
 
 #### Practice
 

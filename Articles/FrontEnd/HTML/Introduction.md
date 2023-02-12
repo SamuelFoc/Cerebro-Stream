@@ -8,6 +8,10 @@ HTML elements are the building blocks of web pages and are used to define the st
 
       <h1>This is a heading</h1>
 
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/HTML/intro1.png" width="80%" alt="Image vs code"/>
+</div>
+
 #### Creating a Simple Web Page
 
 To create a web page, you need to start with a text editor and save the file with the ".html" extension. Here's an example of a simple HTML web page:
@@ -23,6 +27,10 @@ To create a web page, you need to start with a text editor and save the file wit
     </body>
     </html>
 
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/HTML/intro2.png" width="80%" alt="Image vs code"/>
+</div>
+
 #### Understanding the Basic Structure of an HTML Page
 
 The above example shows the basic structure of an HTML page, including the DOCTYPE declaration, the HTML element, the head element, and the body element.
@@ -33,6 +41,10 @@ The body element contains the content that will be displayed on the web page.
 Adding Content to the Page: You can add various types of content to an HTML page, including text, images, links, and more. For example, you can add an image to your web page using the following code:
 
     <img src="image.jpg" alt="A description of the image">
+
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/HTML/intro3.png" width="80%" alt="Image vs code"/>
+</div>
 
 #### Conclusion
 

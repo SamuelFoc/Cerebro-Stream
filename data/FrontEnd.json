@@ -10,107 +10,112 @@
     "Topics": [
       {
         "title": "HTML",
-        "img": "/HTMLIcon.png",
+        "img": "/images/HTMLIcon.png",
         "articles": [
           {
+            "title": "IDE",
+            "img": "/Articles/FrontEnd/HTML/vscodeicon.png",
+            "directUrl": "/Subjects/FrontEnd/HTML/IDE"
+          },
+          {
             "title": "Introduction",
-            "img": "/HTMLIcon.png",
+            "img": "/Articles/FrontEnd/HTML/h1.png",
             "directUrl": "/Subjects/FrontEnd/HTML/Introduction"
           },
           {
-            "title": "Elements and Attributes",
-            "img": "/HTMLIcon.png",
-            "directUrl": "/Subjects/FrontEnd/HTML/ElementsandAttributes"
+            "title": "Attributes",
+            "img": "/Articles/FrontEnd/HTML/img.png",
+            "directUrl": "/Subjects/FrontEnd/HTML/Attributes"
           },
           {
             "title": "Tables",
-            "img": "/HTMLIcon.png",
+            "img": "/Articles/FrontEnd/HTML/table.png",
             "directUrl": "/Subjects/FrontEnd/HTML/Tables"
           },
           {
             "title": "Forms",
-            "img": "/HTMLIcon.png",
+            "img": "/Articles/FrontEnd/HTML/img.png",
             "directUrl": "/Subjects/FrontEnd/HTML/Forms"
           }
         ]
       },
       {
         "title": "HTML exercises",
-        "img": "/HTMLExercisesIcon.png",
+        "img": "/images/HTMLExercisesIcon.png",
         "articles": [
           {
             "title": "Exercises 1",
-            "img": "/HTMLExercisesIcon.png",
+            "img": "/Articles/FrontEnd/HTML/Exercises.png",
             "directUrl": "/Subjects/FrontEnd/HTMLexercises/Exercises1"
           }
         ]
       },
       {
         "title": "CSS",
-        "img": "/CSSIcon.png",
+        "img": "/images/CSSIcon.png",
         "articles": [
           {
             "title": "Introduction",
-            "img": "/CSSIcon.png",
+            "img": "/Articles/FrontEnd/CSS/intro.png",
             "directUrl": "/Subjects/FrontEnd/CSS/Introduction"
           },
           {
-            "title": "Best practices",
-            "img": "/CSSIcon.png",
-            "directUrl": "/Subjects/FrontEnd/CSS/Bestpractices"
+            "title": "Layout and Responsivity",
+            "img": "/Articles/FrontEnd/CSS/Layout.png",
+            "directUrl": "/Subjects/FrontEnd/CSS/LayoutResponsivity"
           },
           {
-            "title": "Layout and Responsivity",
-            "img": "/CSSIcon.png",
-            "directUrl": "/Subjects/FrontEnd/CSS/LayoutResponsivity"
+            "title": "Best practices",
+            "img": "/Articles/FrontEnd/CSS/Bestpractice.png",
+            "directUrl": "/Subjects/FrontEnd/CSS/Bestpractices"
           }
         ]
       },
       {
-        "title": "CSS Exercises",
-        "img": "/CSSExercisesIcon.png",
+        "title": "CSS exercises",
+        "img": "/images/CSSExercisesIcon.png",
         "articles": [
           {
             "title": "Exercises 1",
-            "img": "/CSSExercisesIcon.png",
+            "img": "/Articles/FrontEnd/HTML/Exercises.png",
             "directUrl": "/Subjects/FrontEnd/CSSexercises/Exercises1"
           }
         ]
       },
       {
         "title": "JS Basics",
-        "img": "/JSBasicsIcon.png",
+        "img": "/images/JSBasicsIcon.png",
         "articles": [
           {
             "title": "Introduction",
-            "img": "/JSBasicsIcon.png",
+            "img": "/Articles/FrontEnd/JS/Intro.png",
             "directUrl": "/Subjects/FrontEnd/JSBasics/Introduction"
           },
           {
             "title": "DOM",
-            "img": "/JSBasicsIcon.png",
-            "directUrl": "/Subjects/FrontEnd/JSBasics/DOM"
+            "img": "/Articles/FrontEnd/JS/Dom.png",
+            "directUrl": "/Subjects/FrontEnd/JSBasics/Dom"
           }
         ]
       },
       {
         "title": "JS Exercises",
-        "img": "/JSExercisesIcon.png",
+        "img": "/images/JSExercisesIcon.png",
         "articles": [
           {
             "title": "JS Exercises",
-            "img": "/JSExercisesIcon.png",
+            "img": "/images/JSExercisesIcon.png",
             "directUrl": "/Subjects/FrontEnd/JSexercises/Exercises1"
           }
         ]
       },
       {
         "title": "JS Project",
-        "img": "/JSProjectIcon.png",
+        "img": "/images/JSProjectIcon.png",
         "articles": [
           {
             "title": "JS Project",
-            "img": "/JSProjectIcon.png",
+            "img": "/images/JSProjectIcon.png",
             "directUrl": "/Subjects/FrontEnd/JSProject/Project"
           }
         ]
