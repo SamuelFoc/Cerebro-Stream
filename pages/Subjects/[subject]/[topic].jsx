@@ -2,17 +2,22 @@ import Layout from "../../../components/Layout";
 import GridContainer from "../../../components/GridContainer";
 import RollerTitle from "../../../components/RollerTitle";
 import {
-  getAllArticlesOfSubjectsTopic,
+  getAllTopicsOf,
+  getAllArticlesOf,
   getPaths,
 } from "../../../lib/dataFetcher";
 
 export async function getStaticProps({ params }) {
-  const subjectData = await getAllArticlesOfSubjectsTopic(
-    params.subject,
-    params.topic
-  );
+  const articles = await getAllArticlesOf(params.subject, params.topic);
+  const topics = await getAllTopicsOf(params.subject);
+
   return {
-    props: { subjectData },
+    props: {
+      subject: params.subject,
+      actualTopic: params.topic,
+      articles: articles,
+      topics: topics,
+    },
   };
 }
 
@@ -25,18 +30,15 @@ export async function getStaticPaths() {
   };
 }
 
-export default function Topic({ subjectData }) {
+export default function Topic(props) {
   return (
     <Layout>
       <RollerTitle
-        subject={subjectData?.subject}
-        titleImg={`/images/${subjectData?.actualTopic}Icon.png`}
-        items={subjectData?.topics}
+        subject={props?.subject}
+        titleImg={`/images/${props?.actualTopic}Icon.png`}
+        items={props?.topics}
       />
-      <GridContainer
-        gridTitle={subjectData?.actualTopic}
-        items={subjectData?.articles}
-      />
+      <GridContainer gridTitle={props?.actualTopic} items={props?.articles} />
     </Layout>
   );
 }
