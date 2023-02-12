@@ -15,7 +15,7 @@ export default function ItemBox(props) {
   return (
     <Link href={href} className={styles.container}>
       <h5 className={styles.title}>{props.title}</h5>
-      <img className={styles.image} src={`/images/${props.img}`} alt="image" />
+      <img className={styles.image} src={`${props.img}`} alt="image" />
     </Link>
   );
 }
