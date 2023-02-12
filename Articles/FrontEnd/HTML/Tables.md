@@ -17,6 +17,10 @@ A HTML table consists of rows and columns. The &lt;table&gt; element defines the
       </tr>
     </table>
 
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/HTML/table1.png" width="80%" alt="Image vs code"/>
+</div>
+
 #### Table Headings
 
 You can add headings to a table by using the &lt;th&gt; element instead of &lt;td&gt;. The &lt;th&gt; element is used to define a header cell, which is typically used to label a column or a row. For example:
@@ -35,6 +39,10 @@ You can add headings to a table by using the &lt;th&gt; element instead of &lt;t
         <td>Row 2, Column 2</td>
       </tr>
     </table>
+
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/HTML/table2.png" width="80%" alt="Image vs code"/>
+</div>
 
 #### Spanning Columns or Rows
 
@@ -57,6 +65,10 @@ You can merge cells horizontally or vertically using the colspan and rowspan att
         <td>Row 2, Column 2</td>
       </tr>
     </table>
+
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/HTML/table3.png" width="80%" alt="Image vs code"/>
+</div>
 
 #### Practice
 

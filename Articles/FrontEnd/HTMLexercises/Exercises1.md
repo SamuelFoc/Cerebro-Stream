@@ -13,6 +13,10 @@
         </body>
         </html>
 
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/HTML/example1.png" width="80%" alt="Image vs code"/>
+</div>
+
 #### Example 2: Adding Images to an HTML Page
 
         <!DOCTYPE html>
@@ -26,6 +30,10 @@
             <p>This is my first HTML page with images.</p>
         </body>
         </html>
+
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/HTML/example2.png" width="80%" alt="Image vs code"/>
+</div>
 
 #### Example 3: Creating a List in HTML
 
@@ -43,6 +51,10 @@
             </ul>
         </body>
         </html>
+
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/HTML/example3.png" width="80%" alt="Image vs code"/>
+</div>
 
 #### Exercise 1: Creating an HTML Page with Headings and Paragraphs
 
@@ -85,6 +97,10 @@ These examples and exercises should give you a good starting point for learning 
         </body>
         </html>
 
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/HTML/solution1.png" width="80%" alt="Image vs code"/>
+</div>
+
 #### Exercise 2: Adding Links to an HTML Page
 
         <!DOCTYPE html>
@@ -105,6 +121,10 @@ These examples and exercises should give you a good starting point for learning 
             </p>
         </body>
         </html>
+
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/HTML/solution2.png" width="80%" alt="Image vs code"/>
+</div>
 
 #### Exercise 3: Creating a Table in HTML
 
@@ -139,5 +159,9 @@ These examples and exercises should give you a good starting point for learning 
             </table>
         </body>
         </html>
+
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/HTML/solution3.png" width="80%" alt="Image vs code"/>
+</div>
 
 I hope these solutions help you understand the concepts better. Good luck!

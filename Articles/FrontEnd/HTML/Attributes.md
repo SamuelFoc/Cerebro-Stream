@@ -25,7 +25,12 @@ HTML elements can have attributes that provide additional information about the 
 - `href` for defining the destination of a link
 - `alt` for defining alternative text for an image
 
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/HTML/attributes.png" width="80%" alt="Image vs code"/>
+</div>
+
 #### Practice
 
 To learn more about HTML elements and attributes, try creating a simple web page using the elements and attributes listed above. You can also try modifying the attributes to see how they affect the appearance of the page.
-In the next lesson, we will cover the basics of CSS and how it can be used to style HTML elements. For now, focus on understanding HTML elements and attributes and get comfortable using them in your own web pages.
+
+In the next lesson, we will cover the basics of Table elements. For now, focus on understanding HTML elements and attributes and get comfortable using them in your own web pages.

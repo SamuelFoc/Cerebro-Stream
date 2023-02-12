@@ -16,6 +16,10 @@ A HTML form consists of a series of form elements, such as text fields, checkbox
       <input type="submit" value="Submit">
     </form>
 
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/HTML/form1.png" width="80%" alt="Image vs code"/>
+</div>
+
 #### Form Elements
 
 There are several different types of form elements that can be used to gather information from users. Some of the most commonly used form elements include:
@@ -26,6 +30,10 @@ There are several different types of form elements that can be used to gather in
 - &lt;input type="checkbox"&gt; for checkboxes
 - &lt;select&gt; and &lt;option&gt; for drop-down lists
 - &lt;textarea&gt; for multi-line text fields
+
+<div style="display: flex;justify-content: center;margin: 50px 0px">
+    <img src="/Articles/FrontEnd/HTML/form2.png" width="80%" alt="Image vs code"/>
+</div>
 
 #### Labels
 

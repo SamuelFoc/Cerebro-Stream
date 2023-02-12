@@ -14,12 +14,78 @@ Writing organized CSS code helps make it easier to maintain and update your styl
 - Using descriptive and meaningful class and id names
 - Grouping related styles together
 
+##### Here's an example of bad CSS:
+
+        div {
+            color: red;
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        h1 {
+            color: blue;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+This is considered bad because:
+
+- The styles are not organized and grouped properly based on their purpose
+- The selectors are too generic and may affect other elements on the page
+- There is no separation between the presentation (CSS) and structure (HTML)
+
+##### Here's an example of CSS code following best practices:
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        .header h1 {
+            color: #333;
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .navigation ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .navigation li {
+            margin-right: 10px;
+        }
+
+        .navigation a {
+            color: #333;
+            text-decoration: none;
+        }
+
+In this example:
+
+- The styles are organized and grouped properly based on their purpose
+- The selectors are specific and only target the intended elements
+- There is separation between the presentation (CSS) and structure (HTML).
+
 #### Accessibility
 
 Writing accessible HTML and CSS code ensures that users with disabilities can access and use your web pages. Some accessibility best practices include:
 Providing alternative text for images
 Using proper heading structure (e.g., &lt;h1&gt; for the main heading, &lt;h2&gt; for subheadings, etc.)
-Making sure your page has a good color contrast ratio
+Making sure your page has a good color contrast ratio.
 
 #### Performance
 
