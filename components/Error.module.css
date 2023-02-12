@@ -1,0 +1,23 @@
+.errorContainer {
+  padding: 100px 25px;
+  border-radius: 15px;
+
+  width: 100%;
+
+  font-family: var(--my-font-family);
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  background-color: var(--my-blue);
+}
+
+@media only screen and (max-width: 768px) {
+  .errorContainer {
+    font-size: 6px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .errorContainer {
+    font-size: 10px;
+  }
+}
