@@ -24,9 +24,12 @@
 }
 
 .rollerItem {
+  padding: 55px 10px 15px 10px;
   margin: 40px 15px;
   height: 175px;
   min-width: 175px;
+  max-width: 275px;
+  position: relative;
 
   display: flex;
   flex-direction: column;
@@ -43,7 +46,8 @@
 }
 
 .rollerItemImage {
-  height: 110px;
+  max-width: 80%;
+  max-height: 100%;
 }
 
 .rollerItemTitle {
@@ -51,6 +55,8 @@
   font-family: var(--my-font-family);
   font-weight: 600;
   font-size: 18px;
+  position: absolute;
+  top: 10%;
 }
 
 @media only screen and (max-width: 622px) {

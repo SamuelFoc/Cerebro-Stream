@@ -30,7 +30,7 @@ export default function RollerTitle(props) {
               </h5>
               <img
                 className={styles.rollerItemImage}
-                src={"/images/" + item.img}
+                src={item.img}
                 alt="item"
               />
             </Link>
