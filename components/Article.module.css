@@ -27,6 +27,10 @@
   margin-bottom: 15px;
   margin-top: 45px;
 }
+.articleContainer > h5 {
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
 
 .articleContainer > p {
   margin-bottom: 10px;
@@ -38,7 +42,7 @@
 }
 
 .articleContainer > ul > li {
-  margin: 15px 30px;
+  margin: 15px 10%;
 }
 .articleContainer > li {
   margin-bottom: 10px;
@@ -91,6 +95,9 @@
   color: white;
   font-size: 15px;
 }
+.articleContainer > ul > li > pre {
+  overflow-x: auto;
+}
 
 /* Mobiles (0 - 769px) */
 @media only screen and (max-width: 769px) {
@@ -118,6 +125,15 @@
   }
   .articleContainer img {
     max-width: 80vw;
+  }
+  .articleContainer > ul > li > pre {
+    margin: 20px 0;
+
+    border-radius: 5px;
+    font-size: 10px;
+  }
+  .articleContainer > ul > li > pre > code {
+    word-wrap: break-word;
   }
 }
 
