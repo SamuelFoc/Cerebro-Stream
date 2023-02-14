@@ -46,7 +46,7 @@
           {
             "title": "Exercises 1",
             "img": "/Articles/FrontEnd/HTML/Exercises.png",
-            "directUrl": "/Subjects/FrontEnd/HTMLexercises/Exercises1"
+            "directUrl": "/Subjects/FrontEnd/HTMLExercises/Exercises1"
           }
         ]
       },
@@ -78,7 +78,7 @@
           {
             "title": "Exercises 1",
             "img": "/Articles/FrontEnd/HTML/Exercises.png",
-            "directUrl": "/Subjects/FrontEnd/CSSexercises/Exercises1"
+            "directUrl": "/Subjects/FrontEnd/CSSExercises/Exercises1"
           }
         ]
       },
@@ -105,7 +105,7 @@
           {
             "title": "JS Exercises",
             "img": "/images/JSExercisesIcon.png",
-            "directUrl": "/Subjects/FrontEnd/JSexercises/Exercises1"
+            "directUrl": "/Subjects/FrontEnd/JSExercises/Exercises1"
           }
         ]
       },
