@@ -88,12 +88,16 @@
 }
 
 .articleContainer > pre {
-  background-color: rgba(0, 0, 0, 0.798);
-  border-radius: 15px;
-  padding: 15px 20px;
-  margin: 20px 50px;
-  color: white;
+  background-color: rgb(89, 89, 89);
+  margin: 15px 20px;
+  border-radius: 8px;
+  padding: 5px 5px;
   font-size: 15px;
+}
+.articleContainer > pre > code {
+  border-radius: 5px;
+  background-color: rgb(28, 33, 49);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.382);
 }
 .articleContainer > ul > li > pre {
   overflow-x: auto;
