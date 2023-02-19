@@ -7,7 +7,7 @@
 
 .row {
   display: flex;
-  padding: 20px 7%;
+  padding: 10px 7%;
 }
 
 .text {
@@ -27,9 +27,12 @@
 @media only screen and (max-width: 769px) {
   .container {
     width: 100vw;
+    transform: translateX(-15px);
   }
   .title {
     font-size: 22px;
+    backdrop-filter: blur(8px);
+    padding: 0px 10px;
   }
   .text {
     font-size: 16px;
@@ -43,12 +46,6 @@
     top: -50px;
     right: 20px;
     z-index: -1;
-  }
-}
-
-@media only screen and (max-width: 769px) {
-  .container {
-    transform: translateX(-15px);
   }
 }
 

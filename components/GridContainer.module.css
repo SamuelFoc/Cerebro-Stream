@@ -1,6 +1,6 @@
 .gridContainer {
-  padding: 10px 50px;
-  margin: 100px 0px;
+  padding: 50px 0;
+  margin: 0;
 }
 
 .gridTitle {
@@ -11,29 +11,17 @@
 
 .grid {
   margin-top: 30px;
-  display: grid;
-  grid-column-gap: 3%;
-  grid-row-gap: 10%;
-  margin-bottom: 150px;
-  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 25px;
+  justify-content: center;
 }
 
 /* Mobiles (0 - 769px) */
 @media only screen and (max-width: 769px) {
-  .gridContainer {
-    transform: translate(-15px);
-    width: 100vw;
-  }
   .gridTitle {
-    transform: translate(-15px);
-    margin-left: 0px;
-    font-size: 20px;
-  }
-  .grid {
-    margin-top: 30px;
-    grid-template-columns: auto;
-    grid-column-gap: 3%;
-    grid-row-gap: 3%;
+    margin-left: 10px;
+    font-size: 18px;
   }
 }
 
@@ -41,12 +29,7 @@
 @media only screen and (min-width: 650px) and (max-width: 950px) {
   .gridTitle {
     font-size: 22px;
-  }
-  .grid {
-    margin-top: 30px;
-    grid-template-columns: auto auto;
-    grid-column-gap: 3%;
-    grid-row-gap: 10%;
+    transform: translateX(30px);
   }
 }
 
@@ -54,33 +37,20 @@
 @media only screen and (min-width: 950px) and (max-width: 1340px) {
   .gridTitle {
     font-size: 25px;
-  }
-  .grid {
-    grid-template-columns: auto auto auto;
+    transform: translateX(40px);
   }
 }
 
 /* Desktops, large screens (1200px — 2000px) */
 @media only screen and (min-width: 1340px) and (max-width: 2000px) {
   .gridTitle {
-    font-size: 32px;
-  }
-  .grid {
-    margin-top: 30px;
-    grid-template-columns: auto auto auto auto;
-    grid-column-gap: 3%;
-    grid-row-gap: 10%;
+    font-size: 28px;
+    transform: translateX(70px);
   }
 }
 
 @media only screen and (min-width: 2000px) {
   .gridTitle {
-    font-size: 42px;
-  }
-  .grid {
-    margin-top: 30px;
-    grid-template-columns: auto auto auto auto;
-    grid-column-gap: 3%;
-    grid-row-gap: 10%;
+    font-size: 36px;
   }
 }

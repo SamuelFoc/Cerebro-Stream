@@ -1,5 +1,5 @@
 /* Mobiles (0 - 622px) */
-@media only screen and (max-width: 622px) {
+@media only screen and (max-width: 769px) {
   .mainContainer {
     padding: 50px 15px;
     overflow: hidden;
@@ -9,7 +9,7 @@
 }
 
 /* Small screens, laptops (622px — 1200px) */
-@media only screen and (min-width: 622px) and (max-width: 1200px) {
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
   .mainContainer {
     padding: 50px 50px;
     overflow: hidden;

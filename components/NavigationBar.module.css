@@ -16,6 +16,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   color: #df5927;
+  margin: 0;
 }
 
 .itemList {
@@ -38,6 +39,8 @@
 }
 
 .smallItemList {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;

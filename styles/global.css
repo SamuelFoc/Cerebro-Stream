@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap");
 
 /* Variables */
 :root {
@@ -9,15 +9,17 @@
   --my-font-family: "Montserrat", sans-serif;
 }
 
-* {
+body {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
 }
 
 a {
   color: #df5927;
+  text-decoration: none;
+}
+
+p {
+  font-family: var(--my-font-family);
 }
 
 .active {

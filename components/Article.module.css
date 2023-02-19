@@ -1,189 +1,40 @@
-.articleContainer {
-  font-family: var(--my-font-family);
-  font-size: 25px;
+.container {
+  padding: 0% 20%;
+  font-family: "Montserrat", sans-serif;
 }
+
 .title {
   color: rgb(169, 169, 169);
   font-family: var(--my-font-family);
   margin-top: 50px;
 }
 
-.articleContainer > h1 {
-  margin-bottom: 45px;
-  color: var(--my-blue);
-}
-.articleContainer > h2 {
-  margin-top: 35px;
-  margin-bottom: 25px;
-  color: var(--my-blue);
-}
-.articleContainer > h3 {
-  margin-bottom: 15px;
-  margin-top: 25px;
-}
-.articleContainer > h4 {
-  border-left: 5px solid rgb(0, 149, 255);
-  padding-left: 5px;
-  margin-bottom: 15px;
-  margin-top: 45px;
-}
-.articleContainer > h5 {
-  margin-bottom: 15px;
-  margin-top: 25px;
+.container > h1,
+.container > h2 {
+  color: rgb(0, 102, 255);
 }
 
-.articleContainer > p {
-  margin-bottom: 10px;
-  margin-top: 10px;
+.container > h3,
+.container > h4 {
+  padding-left: 10px;
+  border-left: 6px solid rgb(255, 111, 0);
+  color: rgb(255, 111, 0);
 }
 
-.articleContainer > ol > li {
-  margin: 15px 30px;
+.container > p {
+  display: flex;
+  justify-content: center;
+}
+.container > p > img {
+  width: 80%;
+  margin: 50px;
 }
 
-.articleContainer > ul > li {
-  margin: 15px 10%;
-}
-.articleContainer > li {
-  margin-bottom: 10px;
-}
-
-.articleContainer > ul > li > pre {
-  background-color: rgba(0, 0, 0, 0.798);
-  border-radius: 15px;
-  padding: 15px 20px;
-  margin: 20px 50px;
-  color: white;
-  font-size: 15px;
-}
-
-.articleContainer > ol > li > ul > li > pre {
-  background-color: rgba(0, 0, 0, 0.798);
-  border-radius: 15px;
-  padding: 15px 20px;
-  margin: 20px 50px;
-  color: white;
-  font-size: 15px;
-}
-.articleContainer > ol > li > ul > li {
-  font-size: 15px;
-  font-weight: 300;
-  margin: 10px 15px;
-}
-.articleContainer > ol > li {
-  font-size: 16px;
-  font-weight: 600;
-  margin: 10px 25px;
-}
-.articleContainer > ol > li > pre {
-  background-color: rgba(0, 0, 0, 0.798);
-  border-radius: 15px;
-  padding: 15px 20px;
-  margin: 20px 50px;
-  color: white;
-  font-size: 15px;
-}
-.articleContainer > ol {
-  margin: 40px 0px;
-}
-
-.articleContainer > pre {
-  background-color: rgb(89, 89, 89);
-  margin: 15px 20px;
-  border-radius: 8px;
-  padding: 5px 5px;
-  font-size: 15px;
-}
-.articleContainer > pre > code {
-  border-radius: 5px;
-  background-color: rgb(28, 33, 49);
-  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.382);
-}
-.articleContainer > ul > li > pre {
-  overflow-x: auto;
-}
-
-/* Mobiles (0 - 769px) */
-@media only screen and (max-width: 769px) {
-  .mainCcontainer {
-    width: 100vw;
-    padding: 0;
-  }
-  .title {
-    font-size: 16px;
-  }
-  .articleContainer {
-    font-size: 20px;
-  }
-  .articleContainer > p {
-    font-size: 15px;
-  }
-  .articleContainer ul {
-    font-size: 15px;
-  }
-  .articleContainer span {
-    font-size: 12px;
-  }
-  .articleContainer eqn {
-    overflow-x: auto;
-  }
-  .articleContainer img {
-    max-width: 80vw;
-  }
-  .articleContainer > ul > li > pre {
-    margin: 20px 0;
-
-    border-radius: 5px;
-    font-size: 10px;
-  }
-  .articleContainer > ul > li > pre > code {
-    word-wrap: break-word;
-  }
-}
-
-/* Small screens, laptops (769px — 1200px) */
-@media only screen and (min-width: 769px) and (max-width: 1800px) {
-  .articleContainer {
-    padding: 2% 0%;
-  }
+@media only screen and (max-width: 768px) {
   .title {
     font-size: 18px;
   }
-  .articleContainer {
-    font-size: 24px;
-  }
-  .articleContainer > p {
-    font-size: 17px;
-  }
-  .articleContainer ul {
-    font-size: 17px;
-  }
-  .articleContainer span {
-    font-size: 18px;
-  }
-  .articleContainer eqn {
-    overflow-x: auto;
-  }
-  .articleContainer img {
-    max-width: 80vw;
-  }
-}
-
-/* Desktops, large screens (1200px — 2000px) */
-@media only screen and (min-width: 1200px) {
-  .articleContainer {
-    padding: 0% 15%;
-  }
-  .articleContainer eqn {
-    overflow-x: auto;
-  }
-  .articleContainer img {
-    max-width: 80vw;
-  }
-  .title {
-    transform: translateX(15%);
-  }
-  .articleContainer > h4 {
-    font-size: 18px;
+  .container {
+    padding: 5% 0%;
   }
 }
