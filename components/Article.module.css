@@ -21,10 +21,6 @@
   color: rgb(255, 111, 0);
 }
 
-.container > p {
-  display: flex;
-  justify-content: center;
-}
 .container > p > img {
   width: 80%;
   margin: 50px;
