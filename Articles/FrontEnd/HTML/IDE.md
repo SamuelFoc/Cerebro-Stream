@@ -1,26 +1,22 @@
 ## VS code Installation
 
-- `Download Visual Studio Code:` Go to the [Visual Studio Code website](https://code.visualstudio.com/download) and download the latest version of the software for your operating system.
+- **Download Visual Studio Code:** Go to the [Visual Studio Code website](https://code.visualstudio.com/download) and download the latest version of the software for your operating system.
 
-<div style="display: flex;justify-content: center;margin: 50px 0px">
-    <img src="/Articles/FrontEnd/HTML/vscode1.png" width="80%" alt="Image vs code"/>
-</div>
+![IDE image](/Articles/FrontEnd/HTML/vscode1.png "IDE introduction")
 
-- `Install Visual Studio Code:` Once the download is complete, run the installer and follow the on-screen instructions to install VS Code.
+- **Install Visual Studio Code:** Once the download is complete, run the installer and follow the on-screen instructions to install VS Code.
 
-- `Launch Visual Studio Code:` After installation, you can launch VS Code from your applications menu or by double-clicking its icon on your desktop.
+- **Launch Visual Studio Code:** After installation, you can launch VS Code from your applications menu or by double-clicking its icon on your desktop.
 
-<div style="display: flex;justify-content: center;margin: 50px 0px">
-    <img src="/Articles/FrontEnd/HTML/vscode2.png" width="80%" alt="Image vs code"/>
-</div>
+![IDE image](/Articles/FrontEnd/HTML/vscode2.png "IDE introduction")
 
-- `Create a new file:` Once VS Code is open, you can create a new file by clicking on the File menu, then selecting "New File." You can save this file by clicking on the File menu and selecting "Save As."
+- **Create a new file:** Once VS Code is open, you can create a new file by clicking on the File menu, then selecting "New File." You can save this file by clicking on the File menu and selecting "Save As."
 
-- `Write your code:` Start writing your code in the new file you created. You can write in a variety of programming languages, including JavaScript, HTML, CSS, Python, and many others.
+- **Write your code:** Start writing your code in the new file you created. You can write in a variety of programming languages, including JavaScript, HTML, CSS, Python, and many others.
 
-- `Run your code:` You can run your code by using the Run menu or by using keyboard shortcuts. The exact steps for running your code will depend on the programming language you are using and the tools you have installed.
+- **Run your code:** You can run your code by using the Run menu or by using keyboard shortcuts. The exact steps for running your code will depend on the programming language you are using and the tools you have installed.
 
-- `Install Live Server`:
+- **Install Live Server**:
 
   1. Launch VS Code and open the Extensions view by clicking on the Extensions icon on the Activity Bar or by using the keyboard shortcut Ctrl + Shift + X.
 
@@ -36,8 +32,6 @@
 
   7. View your web page: Your web page will now be displayed in your default web browser. You can make changes to your HTML file and they will be automatically reloaded in the browser.
 
-<div style="display: flex;justify-content: center;margin: 50px 0px">
-    <img src="/Articles/FrontEnd/HTML/vscode3.png" width="80%" alt="Image vs code"/>
-</div>
+![IDE image](/Articles/FrontEnd/HTML/vscode3.png "IDE introduction")
 
 That's it! With these simple steps, you should be up and running with Visual Studio Code in no time.
