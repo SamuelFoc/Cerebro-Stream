@@ -6,11 +6,12 @@ import {
   getPaths,
   getArticle,
 } from "../../../../lib/dataFetcher";
+import NextPrev from "../../../../components/NextPrev";
 
 export async function getStaticProps({ params }) {
   const articles = await getAllArticlesOf(params.subject, params.topic);
 
-  const article = await getArticle(
+  const { article, info } = await getArticle(
     params.subject,
     params.topic,
     params.article
@@ -25,6 +26,7 @@ export async function getStaticProps({ params }) {
         subject: params.subject,
         topic: params.topic,
         article: article,
+        info: info,
       },
     },
   };
@@ -51,6 +53,10 @@ export default function ArticlePage(props) {
       <Article
         title={props?.articleData?.path}
         article={props?.articleData?.article}
+      />
+      <NextPrev
+        prev={props?.articleData?.info?.prev}
+        next={props?.articleData?.info?.next}
       />
     </Layout>
   );

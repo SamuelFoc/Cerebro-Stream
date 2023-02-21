@@ -6,7 +6,7 @@ export default function Home() {
     <Layout>
       <img src={"/images/homeImage.png"} className={styles.homeImage} />
       <h1 className={styles.welcome}>WELCOME</h1>
-      <h1 className={styles.titleText}>Let's explore our page</h1>
+      <h1 className={styles.titleText}>Let's Get Smart Together</h1>
       <div className={styles.circle}>
         <svg
           width="850"
