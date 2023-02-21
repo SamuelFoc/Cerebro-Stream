@@ -20,13 +20,17 @@
 @media only screen and (max-width: 580px) {
   .titleText {
     left: 15px;
-    top: 30%;
-    font-size: 38px;
+    top: 29%;
+    font-size: 26px;
+    color: var(--my-orange);
+    font-weight: 200;
   }
   .welcome {
     left: 15px;
     top: 20%;
     font-size: 40px;
+    color: rgb(255, 136, 0);
+    font-weight: 500;
   }
   .homeImage {
     display: none;

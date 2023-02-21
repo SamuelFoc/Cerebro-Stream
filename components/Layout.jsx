@@ -7,7 +7,6 @@ export default function Layout({ children }) {
     <div>
       <NavigationBar
         src="/images/Logo.png"
-        title={{ firstLine: "Get Smarter", secondLine: "Together" }}
         hrefPrefix="/Subjects"
         items={["BackEnd", "FrontEnd"]}
       />

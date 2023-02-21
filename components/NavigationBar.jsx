@@ -16,15 +16,13 @@ export default function NavigationBar(props) {
       <nav className={styles.navBar}>
         {/* Left side of navbar with Logo and Title */}
         <div className={styles.logo}>
-          <Image
-            src={props.src}
-            className={styles.logoImage}
-            width={64}
-            height={88}
-          ></Image>
           <Link href={"/"}>
-            <h1>{props?.title?.firstLine}</h1>
-            <h1>{props?.title?.secondLine}</h1>
+            <Image
+              src={props.src}
+              className={styles.logoImage}
+              width={288}
+              height={90}
+            ></Image>
           </Link>
         </div>
 
