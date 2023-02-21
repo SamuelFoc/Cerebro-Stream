@@ -15,27 +15,36 @@
           {
             "title": "IDE",
             "img": "/Articles/FrontEnd/HTML/vscodeicon.png",
-            "directUrl": "/Subjects/FrontEnd/HTML/IDE"
+            "directUrl": "/Subjects/FrontEnd/HTML/IDE",
+            "next": "/Subjects/FrontEnd/HTML/Introduction"
           },
           {
             "title": "Introduction",
             "img": "/Articles/FrontEnd/HTML/h1.png",
-            "directUrl": "/Subjects/FrontEnd/HTML/Introduction"
+            "directUrl": "/Subjects/FrontEnd/HTML/Introduction",
+            "prev": "/Subjects/FrontEnd/HTML/IDE",
+            "next": "/Subjects/FrontEnd/HTML/Attributes"
           },
           {
             "title": "Attributes",
             "img": "/Articles/FrontEnd/HTML/img.png",
-            "directUrl": "/Subjects/FrontEnd/HTML/Attributes"
+            "directUrl": "/Subjects/FrontEnd/HTML/Attributes",
+            "prev": "/Subjects/FrontEnd/HTML/Introduction",
+            "next": "/Subjects/FrontEnd/HTML/Tables"
           },
           {
             "title": "Tables",
             "img": "/Articles/FrontEnd/HTML/table.png",
-            "directUrl": "/Subjects/FrontEnd/HTML/Tables"
+            "directUrl": "/Subjects/FrontEnd/HTML/Tables",
+            "prev": "/Subjects/FrontEnd/HTML/Attributes",
+            "next": "/Subjects/FrontEnd/HTML/Forms"
           },
           {
             "title": "Forms",
             "img": "/Articles/FrontEnd/HTML/img.png",
-            "directUrl": "/Subjects/FrontEnd/HTML/Forms"
+            "directUrl": "/Subjects/FrontEnd/HTML/Forms",
+            "prev": "/Subjects/FrontEnd/HTML/Tables",
+            "next": "/Subjects/FrontEnd/CSS/Introduction"
           }
         ]
       },
