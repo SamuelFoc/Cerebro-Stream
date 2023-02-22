@@ -1,0 +1,53 @@
+.container {
+  position: fixed;
+  bottom: 10%;
+  right: 0;
+
+  width: 20px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+
+  border-radius: 10px 0 0 10px;
+
+  background-color: var(--lab-btn-color);
+
+  font-family: var(--my-font-family);
+  font-weight: 500;
+  font-size: 22px;
+}
+.container:hover {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+
+  border-radius: 10% 0 0 10%;
+}
+.container:hover .text {
+  display: block;
+}
+.text {
+  color: var(--lab-btn-text-color);
+  display: none;
+  transition: 0.3s;
+}
+
+@media only screen and (min-width: 2000px) {
+  .container {
+    width: 100px;
+    height: 120px;
+  }
+
+  .container:hover {
+    font-weight: 600;
+    height: 120px;
+    width: 100px;
+    cursor: pointer;
+  }
+  .container:hover .text {
+    display: block;
+  }
+}

@@ -2,19 +2,79 @@
 
 /* Variables */
 :root {
-  --my-blue: #3383ff;
-  --my-orange: #df5927;
-  --my-tags-color: #ff5e001f;
+  /* Base colors */
+  --accent-color: #3383ff;
+  --base-color: #df5927;
+  --box-color: #ff5e001f;
+  --bg-color: white;
+  --text-color: rgb(0, 0, 0);
+  --secondary-text-color: rgb(169, 169, 169);
 
+  /* Navbar */
+  --navbar-bg-color: white;
+  --sm-dropdown-bg-color: rgba(255, 255, 255, 0.729);
+  --md-dropdown-bg-color: rgba(255, 255, 255, 0.194);
+
+  /* Footer */
+  --footer-secondary-text-color: rgb(67, 67, 67);
+  --footer-text-color: white;
+  --footer-bg: #3838388a;
+
+  /* Grid */
+  --itemBox-color: #ff5e001f;
+  --item-text-color: rgb(79, 79, 79);
+
+  /* Lab */
+  --lab-btn-color: #282c34;
+  --lab-btn-text-color: #df5927;
+
+  /* Fonts */
   --my-font-family: "Montserrat", sans-serif;
+
+  /* Theme Button */
+  --theme-btn-bg-color: rgba(255, 123, 0, 0.257);
+  --theme-btn-text-color: rgb(0, 0, 0);
 }
 
+[data-theme="dark"] {
+  /* Base colors */
+  --accent-color: #3383ff;
+  --base-color: #df5927;
+  --box-color: #ff5e009e;
+  --bg-color: rgb(41, 41, 41);
+  --text-color: rgb(255, 255, 255);
+  --secondary-text-color: rgb(120, 120, 120);
+
+  /* Navbar */
+  --navbar-bg-color: rgb(41, 41, 41);
+  --sm-dropdown-bg-color: rgba(41, 41, 41, 0.761);
+  --md-dropdown-bg-color: rgba(65, 64, 64, 0.194);
+
+  /* Footer */
+  --footer-secondary-text-color: white;
+  --footer-text-color: rgb(255, 255, 255);
+  --footer-bg: #2424248a;
+
+  /* Grid */
+  --itemBox-color: #4a4948cf;
+  --item-text-color: #df5927;
+
+  /* Lab */
+  --lab-btn-color: #3c3c3c;
+  --lab-btn-text-color: #df5927;
+
+  /* Theme Button */
+  --theme-btn-bg-color: rgb(91, 91, 91);
+  --theme-btn-text-color: rgb(255, 255, 255);
+}
+
+/* SPECIAL GLOBAL CLASSESS */
 body {
   margin: 0;
 }
 
 a {
-  color: #df5927;
+  color: var(--base-color);
   text-decoration: none;
 }
 
@@ -23,13 +83,14 @@ p {
 }
 
 .active {
-  color: white;
-  background-color: #3383ff;
+  color: var(--text-color);
+  background-color: var(--accent-color);
 }
 .active > a {
-  color: white;
+  color: var(--text-color);
 }
 
+/* SCROLLBAR SETTINGS */
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
@@ -43,7 +104,7 @@ p {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #fa7140;
+  background: var(--base-color);
   border-radius: 5px;
 }
 

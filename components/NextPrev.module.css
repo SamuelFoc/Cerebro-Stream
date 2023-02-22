@@ -12,8 +12,8 @@
 
   text-align: center;
 
-  background-color: var(--my-blue);
-  color: white;
+  background-color: var(--accent-color);
+  color: var(--text-color);
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
 

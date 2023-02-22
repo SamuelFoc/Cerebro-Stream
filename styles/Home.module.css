@@ -2,17 +2,16 @@
   position: absolute;
   right: -350px;
   bottom: -500px;
-  z-index: -1;
 }
 
 .welcome {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--my-font-family);
   font-weight: 100;
   position: absolute;
 }
 
 .titleText {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--my-font-family);
   font-weight: 100;
   position: absolute;
 }
@@ -22,14 +21,14 @@
     left: 15px;
     top: 29%;
     font-size: 26px;
-    color: var(--my-orange);
+    color: var(--base-color);
     font-weight: 200;
   }
   .welcome {
     left: 15px;
     top: 20%;
     font-size: 40px;
-    color: rgb(255, 136, 0);
+    color: var(--base-color);
     font-weight: 500;
   }
   .homeImage {
@@ -42,76 +41,75 @@
 
 @media only screen and (min-width: 580px) and (max-width: 880px) {
   .welcome {
-    right: 20%;
+    left: 20%;
     top: 10%;
     font-size: 50px;
   }
   .titleText {
-    right: 5px;
+    left: 20%;
     top: 20%;
     font-size: 38px;
   }
   .homeImage {
-    height: 50%;
+    height: 40%;
     position: absolute;
-    top: 20%;
-    z-index: -1;
+    top: 30%;
   }
   .circle {
     right: -500px;
   }
 }
 
-@media only screen and (min-width: 880px) and (max-width: 1065px) {
+@media only screen and (min-width: 880px) and (max-width: 1300px) {
   .welcome {
-    right: 17%;
-    top: 20%;
+    left: 20%;
+    top: 10%;
     font-size: 55px;
   }
   .titleText {
-    right: 5%;
-    top: 30%;
+    left: 20%;
+    top: 20%;
     font-size: 38px;
   }
   .homeImage {
-    height: 70%;
+    top: 30%;
+    height: 50%;
     position: absolute;
-    z-index: -1;
-  }
-}
-
-@media only screen and (min-width: 1065px) and (max-width: 1300px) {
-  .titleText {
-    right: 17%;
-    top: 34%;
-    font-size: 46px;
-  }
-  .welcome {
-    right: 28%;
-    top: 20%;
-    font-size: 65px;
-  }
-  .homeImage {
-    height: 80%;
-    position: absolute;
-    z-index: -1;
   }
 }
 
 @media only screen and (min-width: 1300px) {
   .titleText {
-    right: 17%;
+    left: 50%;
     top: 34%;
     font-size: 56px;
   }
   .welcome {
-    right: 30%;
+    left: 50%;
     top: 20%;
     font-size: 75px;
   }
   .homeImage {
-    height: 80%;
+    top: 20%;
+    height: 60%;
     position: absolute;
-    z-index: -1;
+  }
+  .circle {
+    top: 50%;
+  }
+}
+
+@keyframes breathe {
+  0% {
+    width: 50vw;
+    height: 50vw;
+  }
+  50% {
+    width: 60vw;
+    height: 60vw;
+  }
+  0% {
+    width: 50vw;
+    height: 50vw;
   }
 }
