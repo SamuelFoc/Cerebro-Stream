@@ -4,28 +4,28 @@
   width: 100%;
   height: 375px;
 
-  background-color: #3838388a;
+  background-color: var(--footer-bg);
 }
 
 .strongText {
-  color: #414141;
+  color: var(--footer-secondary-text-color);
 
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--my-font-family);
   font-weight: 600;
 }
 
 .basicText {
-  color: white;
+  color: var(--footer-text-color);
 
   font-size: 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--my-font-family);
   font-weight: 200;
 }
 .createdByText {
-  color: white;
+  color: var(--text-color);
 
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--my-font-family);
   font-weight: 200;
 }
 

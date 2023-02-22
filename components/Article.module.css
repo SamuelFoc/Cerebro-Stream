@@ -1,10 +1,10 @@
 .container {
   padding: 0% 20%;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--my-font-family);
 }
 
 .title {
-  color: rgb(169, 169, 169);
+  color: var(--secondary-text-color);
   font-family: var(--my-font-family);
   margin-top: 50px;
   margin-left: 20%;
@@ -12,14 +12,14 @@
 
 .container > h1,
 .container > h2 {
-  color: rgb(0, 102, 255);
+  color: var(--accent-color);
 }
 
 .container > h3,
 .container > h4 {
   padding-left: 10px;
-  border-left: 6px solid rgb(255, 111, 0);
-  color: rgb(255, 111, 0);
+  border-left: 6px solid var(--base-color);
+  color: var(--base-color);
 }
 
 .container > p > img {

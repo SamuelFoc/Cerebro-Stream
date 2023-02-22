@@ -9,6 +9,7 @@ export default function Home() {
       <h1 className={styles.titleText}>Let's Get Smart Together</h1>
       <div className={styles.circle}>
         <svg
+          className={styles.svgCircle}
           width="850"
           height="850"
           viewBox="0 0 850 850"

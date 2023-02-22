@@ -17,12 +17,7 @@ export default function NavigationBar(props) {
         {/* Left side of navbar with Logo and Title */}
         <div className={styles.logo}>
           <Link href={"/"}>
-            <Image
-              src={props.src}
-              className={styles.logoImage}
-              width={288}
-              height={90}
-            ></Image>
+            <img src={props.src} className={styles.logoImage} />
           </Link>
         </div>
 

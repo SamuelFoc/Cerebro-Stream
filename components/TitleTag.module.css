@@ -1,5 +1,5 @@
 .container {
-  background-color: var(--my-tags-color);
+  background-color: var(--itemBox-color);
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.112);
   transform: translateX(-50px);
   position: relative;
@@ -19,7 +19,7 @@
 .title {
   font-weight: 600;
   font-family: var(--my-font-family);
-  color: var(--my-blue);
+  color: var(--accent-color);
   padding-left: 20px;
 }
 
