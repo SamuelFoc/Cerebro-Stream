@@ -1,25 +1,39 @@
 .container {
+  position: relative;
   width: calc(100vw - 50px);
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 25px;
 }
 
 .imageContainer {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+
   width: 40%;
+  height: 190px;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0);
 }
+
 .imageContainer > img {
   height: 180px;
 }
 
 .rollerContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
   padding: 20px 30px;
-  max-width: 60%;
-  min-width: 50%;
+  max-width: 50%;
+  min-width: 40%;
   display: flex;
   overflow-x: auto;
 }
@@ -36,7 +50,7 @@
   align-items: center;
 
   background-color: var(--my-tags-color);
-  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.119);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.082);
   transition: 0.2s;
 }
 .rollerItem:hover {
@@ -47,7 +61,7 @@
 
 .rollerItemImage {
   max-width: 60%;
-  max-height: 100%;
+  max-height: 50%;
 }
 
 .rollerItemTitle {
@@ -76,11 +90,21 @@
     height: 250px;
     min-width: 250px;
   }
+  .container {
+    height: 300px;
+  }
 }
 
 @media only screen and (min-width: 2000px) {
   .rollerItem {
-    height: 270px;
-    width: 270px;
+    height: 300px;
+    min-width: 300px;
+  }
+  .imageContainer > img {
+    height: 250px;
+  }
+  .container {
+    margin-top: 50px;
+    height: 500px;
   }
 }
