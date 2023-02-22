@@ -2,7 +2,7 @@
   "Subject": "FrontEnd",
   "SubjectBanner": {
     "title": "Front End Development",
-    "image": "programming.png",
+    "image": "PCIcon.png",
     "text": "Front-end development refers to the development of the client-side of a web application. It encompasses the design, layout, and interaction of a website or web application as experienced by users. Front-end developers use HTML, CSS, and JavaScript to build user interfaces and create engaging, interactive user experiences. They are responsible for ensuring that a website looks good, works smoothly, and is accessible to all users, regardless of their device or browser. Front-end development is a crucial aspect of web development and requires a strong understanding of user experience, design principles, and web technologies."
   },
   "GridTag": {
@@ -44,7 +44,7 @@
             "img": "/Articles/FrontEnd/HTML/img.png",
             "directUrl": "/Subjects/FrontEnd/HTML/Forms",
             "prev": "/Subjects/FrontEnd/HTML/Tables",
-            "next": "/Subjects/FrontEnd/CSS/Introduction"
+            "next": "/Subjects/FrontEnd/HTMLExercises/Exercises1"
           }
         ]
       },
@@ -55,7 +55,9 @@
           {
             "title": "Exercises 1",
             "img": "/Articles/FrontEnd/HTML/Exercises.png",
-            "directUrl": "/Subjects/FrontEnd/HTMLExercises/Exercises1"
+            "directUrl": "/Subjects/FrontEnd/HTMLExercises/Exercises1",
+            "prev": "/Subjects/FrontEnd/HTML/Forms",
+            "next": "/Subjects/FrontEnd/CSS/Introduction"
           }
         ]
       },
@@ -66,17 +68,23 @@
           {
             "title": "Introduction",
             "img": "/Articles/FrontEnd/CSS/intro.png",
-            "directUrl": "/Subjects/FrontEnd/CSS/Introduction"
+            "directUrl": "/Subjects/FrontEnd/CSS/Introduction",
+            "prev": "/Subjects/FrontEnd/HTMLExercises/Exercises1",
+            "next": "/Subjects/FrontEnd/CSS/LayoutResponsivity"
           },
           {
             "title": "Layout and Responsivity",
             "img": "/Articles/FrontEnd/CSS/Layout.png",
-            "directUrl": "/Subjects/FrontEnd/CSS/LayoutResponsivity"
+            "directUrl": "/Subjects/FrontEnd/CSS/LayoutResponsivity",
+            "prev": "/Subjects/FrontEnd/CSS/Introduction",
+            "next": "/Subjects/FrontEnd/CSS/Bestpractices"
           },
           {
             "title": "Best practices",
             "img": "/Articles/FrontEnd/CSS/Bestpractice.png",
-            "directUrl": "/Subjects/FrontEnd/CSS/Bestpractices"
+            "directUrl": "/Subjects/FrontEnd/CSS/Bestpractices",
+            "prev": "/Subjects/FrontEnd/CSS/LayoutResponsivity",
+            "next": "/Subjects/FrontEnd/CSSExercises/Exercises1"
           }
         ]
       },
@@ -87,7 +95,9 @@
           {
             "title": "Exercises 1",
             "img": "/Articles/FrontEnd/HTML/Exercises.png",
-            "directUrl": "/Subjects/FrontEnd/CSSExercises/Exercises1"
+            "directUrl": "/Subjects/FrontEnd/CSSExercises/Exercises1",
+            "prev": "/Subjects/FrontEnd/CSS/Bestpractices",
+            "next": "/Subjects/FrontEnd/JSBasics/Introduction"
           }
         ]
       },
@@ -98,12 +108,16 @@
           {
             "title": "Introduction",
             "img": "/Articles/FrontEnd/JS/Intro.png",
-            "directUrl": "/Subjects/FrontEnd/JSBasics/Introduction"
+            "directUrl": "/Subjects/FrontEnd/JSBasics/Introduction",
+            "prev": "/Subjects/FrontEnd/CSSExercises/Exercises1",
+            "next": "/Subjects/FrontEnd/JSBasics/DOM"
           },
           {
             "title": "DOM",
             "img": "/Articles/FrontEnd/JS/Dom.png",
-            "directUrl": "/Subjects/FrontEnd/JSBasics/DOM"
+            "directUrl": "/Subjects/FrontEnd/JSBasics/DOM",
+            "prev": "/Subjects/FrontEnd/JSBasics/Introduction",
+            "next": "/Subjects/FrontEnd/JSExercises/Exercises1"
           }
         ]
       },
@@ -114,7 +128,9 @@
           {
             "title": "JS Exercises",
             "img": "/images/JSExercisesIcon.png",
-            "directUrl": "/Subjects/FrontEnd/JSExercises/Exercises1"
+            "directUrl": "/Subjects/FrontEnd/JSExercises/Exercises1",
+            "prev": "/Subjects/FrontEnd/JSBasics/DOM",
+            "next": "/Subjects/FrontEnd/JSProject/Project"
           }
         ]
       },
@@ -125,7 +141,8 @@
           {
             "title": "JS Project",
             "img": "/images/JSProjectIcon.png",
-            "directUrl": "/Subjects/FrontEnd/JSProject/Project"
+            "directUrl": "/Subjects/FrontEnd/JSProject/Project",
+            "prev": "/Subjects/FrontEnd/JSExercises/Exercises1"
           }
         ]
       }
