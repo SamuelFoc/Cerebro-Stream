@@ -1,0 +1,41 @@
+.container {
+  position: absolute;
+  top: 10px;
+  right: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+}
+
+.button {
+  padding: 10px 15px;
+  border: none;
+  background-color: var(--theme-btn-bg-color);
+  color: var(--theme-btn-text-color);
+  border-radius: 8px;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 2000px) {
+  .container {
+    right: 10px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .container {
+    top: 30px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .button {
+    font-size: 20px;
+    width: 70px;
+    height: 50px;
+  }
+}
