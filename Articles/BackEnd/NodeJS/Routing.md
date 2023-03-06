@@ -50,6 +50,13 @@ In this code, we use the **url.parse** method to parse the requested URL and the
 
 For example, if the requested URL is **"/"**, we respond with a **"Hello, world!"** message. If the requested URL is **"/about"**, we respond with an **"About page"** message. If the requested URL is **"/contact"**, we respond with a **"Contact page"** message that includes the name and email query parameters. Finally, if the requested URL does not match any of our defined routes, we respond with a **404** status code and a **"Page not found"** message.
 
-To test our new routes, we can navigate to different URLs in our web browser, such as **http://localhost:3000/**, **http://localhost:3000/about**, and **http://localhost:3000/contact?name=John&email=john@example.com**.
+To test our new routes, we can navigate to different URLs in our web browser, such as [http://localhost:3001/](http://localhost:3001/)
+![Routing Image](/Articles/BackEnd/NodeJS/routing1.png)
+
+[http://localhost:3001/about](http://localhost:3001/about)
+![Routing Image](/Articles/BackEnd/NodeJS/routing2.png)
+
+[http://localhost:3001/contact?name=John&email=john@example.com](http://localhost:3001/contact?name=John&email=john@example.com).
+![Routing Image](/Articles/BackEnd/NodeJS/routing3.png)
 
 Congratulations! You have successfully created routes for handling different types of HTTP requests in Node.js without any additional libraries. In the next lesson, we will explore how to handle errors and exceptions in our server.

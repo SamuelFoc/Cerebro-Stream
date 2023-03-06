@@ -53,7 +53,7 @@
         "articles": [
           {
             "title": "Introduction",
-            "img": "/images/NodeJSIcon.png",
+            "img": "/images/ExpressJSIcon.png",
             "directUrl": "/Subjects/BackEnd/ExpressJS/Introduction",
             "next": "/Subjects/BackEnd/ExpressJS/Routing"
           },

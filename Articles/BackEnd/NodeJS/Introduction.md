@@ -4,7 +4,7 @@ Welcome to your first lesson in backend programming in Node.js without any addit
 
 Node.js is a JavaScript runtime that allows you to run JavaScript on the server-side. It is built on top of the V8 JavaScript engine and provides an event-driven, non-blocking I/O model that makes it lightweight and efficient.
 
-To get started, you will need to have Node.js installed on your computer. You can download the latest version from the official website: **https://nodejs.org/en/download/**
+To get started, you will need to have Node.js installed on your computer. You can download the latest version from the official website: **[nodejs.org](https://nodejs.org/en/download/)**
 
 Once you have Node.js installed, open your preferred text editor and create a new file called **server.js**. This will be the main file for our server.
 
@@ -13,6 +13,8 @@ In **server.js**, we will start by requiring the built-in http module. This modu
 ```javascript
 const http = require("http");
 ```
+
+![NodeJS image](/Articles/BackEnd/NodeJS/intro1.png "NodeJS introduction")
 
 Next, we will create a server using the createServer method provided by the http module:
 
@@ -24,18 +26,26 @@ const server = http.createServer((req, res) => {
 });
 ```
 
-This code creates a server that listens for incoming requests on port 3000. When a request is received, it sets the response status code to 200 and the content type to plain text. Finally, it sends the response with the message **"Hello, world!"**.
+This code creates a server that listens for incoming requests on port 3001. When a request is received, it sets the response status code to 200 and the content type to plain text. Finally, it sends the response with the message **"Hello, world!"**.
 
 To start the server, we need to call the listen method on the server object:
 
 ```javascript
-server.listen(3000, () => {
-  console.log("Server running on http://localhost:3000/");
+server.listen(3001, () => {
+  console.log("Server running on http://localhost:3001/");
 });
 ```
 
-This code starts the server and logs a message to the console indicating that the server is running.
+![NodeJS image](/Articles/BackEnd/NodeJS/intro2.png "NodeJS introduction")
 
-To test the server, open your web browser and navigate to **http://localhost:3000/**. You should see the message "Hello, world!" displayed in your browser.
+This code starts the server and logs a message to the console indicating that the server is running. You can run this code through the terminal as follows:
+
+```bash
+node server.js
+```
+
+To test the server, open your web browser and navigate to **http://localhost:3001/**. You should see the message "Hello, world!" displayed in your browser.
+
+![NodeJS image](/Articles/BackEnd/NodeJS/intro3.png "NodeJS introduction")
 
 Congratulations! You have successfully created a simple HTTP server using Node.js without any additional libraries. In the next lesson, we will explore how to handle different types of HTTP requests and responses.

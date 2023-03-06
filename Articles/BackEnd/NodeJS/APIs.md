@@ -8,6 +8,12 @@ To demonstrate how to work with external APIs, let's create a simple server that
 
 First, we'll need to obtain an access token from GitHub. To do this, go to your GitHub account settings, select "Developer settings", and then select "Personal access tokens". Generate a new token with the "user" scope, and save the token somewhere secure.
 
+![API Image](/Articles/BackEnd/NodeJS/api1.png)
+
+![API Image](/Articles/BackEnd/NodeJS/api2.png)
+
+![API Image](/Articles/BackEnd/NodeJS/api3.png)
+
 Next, we'll modify our **server.js** file to retrieve information about a GitHub user:
 
 ```javascript
