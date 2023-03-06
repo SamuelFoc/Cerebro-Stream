@@ -85,6 +85,39 @@
             "prev": "/Subjects/BackEnd/ExpressJS/APIs"
           }
         ]
+      },
+      {
+        "title": "SQ Lite",
+        "img": "/images/SqliteIcon.png",
+        "articles": [
+          {
+            "title": "Introduction",
+            "img": "/images/SqliteIcon.png",
+            "directUrl": "/Subjects/BackEnd/SQLite/Introduction",
+            "next": "/Subjects/BackEnd/SQLite/Models"
+          },
+          {
+            "title": "Models",
+            "img": "/images/SqliteIcon.png",
+            "directUrl": "/Subjects/BackEnd/SQLite/Models",
+            "prev": "/Subjects/BackEnd/SQLite/Introduction",
+            "next": "/Subjects/BackEnd/SQLite/Commands"
+          },
+          {
+            "title": "Commands",
+            "img": "/images/SqliteIcon.png",
+            "directUrl": "/Subjects/BackEnd/SQLite/Commands",
+            "prev": "/Subjects/BackEnd/SQLite/Models",
+            "next": "/Subjects/BackEnd/SQLite/Associations"
+          },
+          {
+            "title": "Associations",
+            "img": "/images/SqliteIcon.png",
+            "directUrl": "/Subjects/BackEnd/SQLite/Associations",
+            "prev": "/Subjects/BackEnd/SQLite/Commands",
+            "next": "/Subjects/BackEnd/SQLite/Associations"
+          }
+        ]
       }
     ]
   }
