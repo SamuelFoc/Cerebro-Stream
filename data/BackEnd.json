@@ -106,34 +106,34 @@
         "articles": [
           {
             "title": "Introduction",
-            "img": "/images/SqliteIcon.png",
+            "img": "/images/SQLiteIcon.png",
             "directUrl": "/Subjects/BackEnd/SQLite/Introduction",
             "next": "/Subjects/BackEnd/SQLite/Models"
           },
           {
             "title": "Models",
-            "img": "/Articles/Backend/SQLite/Model.png",
+            "img": "/Articles/BackEnd/SQLite/Model.png",
             "directUrl": "/Subjects/BackEnd/SQLite/Models",
             "prev": "/Subjects/BackEnd/SQLite/Introduction",
             "next": "/Subjects/BackEnd/SQLite/Commands"
           },
           {
             "title": "Commands",
-            "img": "/Articles/Backend/SQLite/Commands.png",
+            "img": "/Articles/BackEnd/SQLite/Commands.png",
             "directUrl": "/Subjects/BackEnd/SQLite/Commands",
             "prev": "/Subjects/BackEnd/SQLite/Models",
             "next": "/Subjects/BackEnd/SQLite/Associations"
           },
           {
             "title": "Associations",
-            "img": "/Articles/Backend/SQLite/Associations.png",
+            "img": "/Articles/BackEnd/SQLite/Associations.png",
             "directUrl": "/Subjects/BackEnd/SQLite/Associations",
             "prev": "/Subjects/BackEnd/SQLite/Commands",
             "next": "/Subjects/BackEnd/SQLite/Project"
           },
           {
             "title": "Project",
-            "img": "/Articles/Backend/SQLite/ProjectDB.png",
+            "img": "/Articles/BackEnd/SQLite/ProjectDB.png",
             "directUrl": "/Subjects/BackEnd/SQLite/Project",
             "prev": "/Subjects/BackEnd/SQLite/Associations"
           }
