@@ -226,3 +226,7 @@ node index.js
 #### Console output
 
 !["Project image"](/Articles/BackEnd/SQLite/project4.png)
+
+### GitHub Repository
+
+[Link to repository](https://github.com/SamuelFoc/Cerebro-Stream-Projects/tree/main/BackEnd/SQLite/Project)
