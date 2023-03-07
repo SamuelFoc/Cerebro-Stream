@@ -19,6 +19,7 @@ In this task, you will be building a To-Do List application using ExpressJS, SQL
 
 2.  Create a database schema:
 
+    - Create a database configuration file
     - Define a Todo model using Sequelize with the following properties:
       - id: an auto-incrementing integer primary key.
       - title: a string representing the title of the To-Do item.
@@ -49,8 +50,6 @@ In this task, you will be building a To-Do List application using ExpressJS, SQL
 
 Use ExpressJS and Sequelize documentation to help you. It is always good to learn directly from documentation.
 
-### Slution
-
-#### GitHub Repository
+### Solution - GitHub Repository
 
 [Link to repository](https://github.com/SamuelFoc/Cerebro-Stream-Projects/tree/main/BackEnd/RestApi/Project)
