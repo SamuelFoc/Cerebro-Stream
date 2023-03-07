@@ -95,7 +95,7 @@ Post.belongsTo(User);
 // Group associations
 Group.belongsToMany(User, { through: "UserGroup" });
 
-sequelize.sync({ alter: true });
+sequelize.sync();
 
 module.exports = {
   sequelize,
@@ -114,98 +114,109 @@ To use these models in your Node.js application, you can simply import them from
 
 #### One-to-one relationship
 
-- Create Profile and assign it to the User
+- We have defined the one-to-one relationship between **User** and **Profile** because every user can have only one profile and of course every profile can belong to only one user. Now we want to create a User named **Bob Doe** with email **bobby.doe@email.com** and assign a profile with address **Prague 123/45** and phone number **123 456 789** to him.
 
 ```javascript
-const { sequelize, User, Profile, Post, Group } = require("./models/index");
+const { sequelize, User, Profile } = require("./models/index");
 
-const tryCommands = async () => {
-  // Create User
-  const user = await User.create({
-    name: "Alice Doe",
-    email: "alice.doe@gmail.com",
-  });
-  // Create Profile
-  const profile = await Profile.create({
-    address: "Prague 1234/11",
-    phone: "123 456 789",
-  });
-  // Assign the Profile to the User
-  await user.setProfile(profile);
-
-  // Retrieve the profile from User
-  const retrievedProfile = await user.getProfile();
-
-  console.log(
-    "User and profile succesfully created: ",
-    retrievedProfile.dataValues
-  );
+const user1 = {
+  name: "Bob Doe",
+  email: "bobby.doe@email.com",
+};
+const profile1 = {
+  address: "Prague 123/45",
+  phone: "123 456 789",
 };
 
-tryCommands();
+const tryOneToOne = async () => {
+  // Create user and profile
+  const user = await User.create(user1);
+  const profile = await Profile.create(profile1);
+
+  // Assign the profile to the user
+  const result = await user.setProfile(profile);
+
+  console.log(result ? "Successfully assigned" : "Failed");
+};
+
+sequelize.sync().then(() => tryOneToOne());
 ```
 
 #### Many-to-one relationship
 
-- Create posts and assign them to the user
+- Many-to-one relationship can be found between User and Posts. Every user has many posts but any post has only one owner and thats the User.
 
 ```javascript
-const { sequelize, User, Profile, Post, Group } = require("./models/index");
+const { sequelize, User, Post } = require("./models/index");
 
-const tryCommands = async () => {
-  // Create User
-  const user = await User.create({
-    name: "Bob Doe",
-    email: "bob.doe@gmail.com",
-  });
-  // Create post 1
-  const post1 = await Post.create({
-    title: "Post 1",
-    content: "Lorem ipsum dolor sit amet, consectetur adip.",
-  });
-  // Create post 2
-  const post2 = await Post.create({
-    title: "Post 2",
-    content: "Lorem ipsum dolor sit amet, consectetur adip.",
-  });
-  // Assign the Posts to the User
-  await user.addPosts([post1, post2]);
-
-  // Retrieve the profile from User
-  const retrievedPosts = await user.getPosts();
-
-  console.log("User and posts succesfully created: ", retrievedPosts);
+const user1 = {
+  name: "Alice Smith",
+  email: "alice.smith@email.com",
+};
+const post1 = {
+  title: "My first post",
+  content: "Lorem ipsum dolor sit amet, consectetur adip.",
+};
+const post2 = {
+  title: "My second post",
+  content: "Lorem ipsum dolor sit amet, consectetur adip.",
 };
 
-tryCommands();
+const tryOneToMany = async () => {
+  // Create User and Posts
+  const user = await User.create(user1);
+  const firstPost = await Post.create(post1);
+  const secondPost = await Post.create(post2);
+
+  // Assign the Posts to the User
+  const result = await user.addPosts([firstPost, secondPost]);
+
+  console.log(result ? "Successfully assigned" : "Failed");
+};
+
+sequelize.sync().then(() => tryOneToMany());
 ```
 
 #### Many-to-many relationship
 
-- Create a group, two users and assign them to the group
+- The last possible type of relationship between models can be Many-to-Many. Groups and Users are in this relationship. Any User can belong to many different groups and any group can contain many users.
 
 ```javascript
-const { sequelize, User, Profile, Post, Group } = require("./models/index");
+const { sequelize, User, Group } = require("./models/index");
 
-const tryCommands = async () => {
-  // First, create the users
-  const user1 = await User.create({
-    name: "John Doe2",
-    email: "john.doe@example.com",
-  });
-  const user2 = await User.create({
-    name: "Jane Doe2",
-    email: "jane.doe@example.com",
-  });
-  //Next, create the new group
-  const newGroup = await Group.create({ name: "ASDASDASD" });
-  // Finally, add the users to the group
-  await newGroup.addUser(user1);
-  await newGroup.addUser(user2);
-  // Retrieve the profile from User
-  const retrievedUsers = await newGroup.getUsers();
-  console.log("Users and group succesfully created: ", retrievedUsers);
+const user1 = {
+  name: "Anna Smith",
+  email: "anna.smith@email.com",
+};
+const user2 = {
+  name: "John Smith",
+  email: "john.smith@email.com",
+};
+const group1 = {
+  name: "Group A",
+};
+const group2 = {
+  name: "Group B",
 };
 
-sequelize.sync().then(() => tryCommands());
+const tryManyToMany = async () => {
+  // Create Users and Groups
+  const anna = await User.create(user1);
+  const john = await User.create(user2);
+  const groupA = await Group.create(group1);
+  const groupB = await Group.create(group2);
+
+  // Assign the Groups to the Users
+  try {
+    await anna.addGroup(groupA);
+    await anna.addGroup(groupB);
+    await john.addGroup(groupA);
+  } catch (error) {
+    console.log("Failed");
+  }
+
+  console.log("Succsesfully assigned");
+};
+
+sequelize.sync().then(() => tryManyToMany());
 ```

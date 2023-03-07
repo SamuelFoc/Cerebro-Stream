@@ -4,7 +4,7 @@ As first you should create a new directory called models in which we will store 
 
 #### Create a model
 
-Create a new model using the sequelize.define() method. In the code below, we define a User model with two properties: name and email.
+In the User.js file create a new model using the sequelize.define() method. In the code below, we define a User model with two properties: name and email.
 
 ```javascript
 const User = sequelize.define("User", {
@@ -38,7 +38,7 @@ After defining the model, we need to synchronize it with the database using the 
 
 #### Use the model
 
-Now that the model is defined and synchronized with the database, we can use it to interact with the database. Create a new file in the root directory called **index.js** and write the following code int it. In the code below, we create a new user and find all the users in the database.
+Now that the model is defined and synchronized with the database, we can use it to interact with the database. Create a new file in the root directory called **index.js** and write the following code in it. In the code below, we create a new user and find all the users in the database.
 
 ```javascript
 const sequelize = require("./database");
@@ -63,13 +63,66 @@ const User = require("./models/User");
 })();
 ```
 
-To try this you can execute **node index.js** in terminal and you should see following:
+To try this you can execute **node index.js** in the terminal and you should see the following:
 
 ![DB image](/Articles/BackEnd/SQLite/models4.png)
 
 The User.create() method creates a new user with the specified name and email and inserts it into the database. The User.findAll() method retrieves all the users from the database and returns them as an array of objects.
 
 And that's it! You now know how to create models using Sequelize and SQLite with the sequelize.define() method. Remember to always close the database connection using sequelize.close() when you're done using it.
+
+#### File content
+
+- models/User.js
+
+```javascript
+const User = sequelize.define("User", {
+  name: {
+    type: Sequelize.STRING,
+    allowNull: false,
+  },
+  email: {
+    type: Sequelize.STRING,
+    allowNull: false,
+  },
+});
+
+(async () => {
+  try {
+    await sequelize.sync();
+    console.log("Database synchronized");
+  } catch (error) {
+    console.error("Unable to sync the database:", error);
+  }
+})();
+
+module.exports = User;
+```
+
+- index.js
+
+```javascript
+const sequelize = require("./database");
+const User = require("./models/User");
+
+(async () => {
+  try {
+    await sequelize.sync();
+    console.log("Database synchronized");
+
+    const user = await User.create({
+      name: "John Doe",
+      email: "john.doe@example.com",
+    });
+    console.log("User created:", user.toJSON());
+
+    const users = await User.findAll();
+    console.log("All users:", JSON.stringify(users, null, 2));
+  } catch (error) {
+    console.error("Unable to sync the database:", error);
+  }
+})();
+```
 
 #### The root directory structure
 

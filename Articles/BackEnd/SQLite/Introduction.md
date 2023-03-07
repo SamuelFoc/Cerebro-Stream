@@ -49,6 +49,14 @@ This will create a new sequelize object that is configured to use SQLite as its 
 
 #### Exporting the Sequelize instance
 
+```javascript
+module.exports = sequelize;
+```
+
+This line exports the sequelize instance that is configured to use SQLite as its database engine and the mydb.db file as its storage location.
+
+#### File content
+
 - database.js
 
 ```javascript
@@ -61,8 +69,6 @@ const sequelize = new Sequelize({
 
 module.exports = sequelize;
 ```
-
-This file exports the sequelize instance that is configured to use SQLite as its database engine and the mydb.db file as its storage location.
 
 #### The root directory structure:
 
