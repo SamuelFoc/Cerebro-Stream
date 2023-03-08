@@ -53,3 +53,7 @@ Adding Content to the Page: You can add various types of content to an HTML page
 ### Conclusion
 
 HTML is the foundation of all websites and provides a way to structure content on the web. With this introduction to HTML, you should now be able to create a simple web page. There is much more to learn about HTML, including styling and layout, but this should give you a good starting point.
+
+### GitHub Repository
+
+[Here](https://github.com/SamuelFoc/Cerebro-Stream-Projects/blob/main/FrontEnd/HTML/1%20simpleWeb.html) you can find some additional files which could be helpful for this lesson.

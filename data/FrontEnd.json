@@ -145,6 +145,53 @@
             "prev": "/Subjects/FrontEnd/JSExercises/Exercises1"
           }
         ]
+      },
+      {
+        "title": "Bootstrap",
+        "img": "/images/BootstrapIcon.png",
+        "articles": [
+          {
+            "title": "Introduction",
+            "img": "/images/BootstrapIcon.png",
+            "directUrl": "/Subjects/FrontEnd/Bootstrap/Introduction"
+          }
+        ]
+      },
+      {
+        "title": "Templates",
+        "img": "/images/TemplatesIcon.png",
+        "articles": [
+          {
+            "title": "Basic HTML",
+            "img": "/Articles/FrontEnd/Templates/BasicHTML.png",
+            "directUrl": "/Subjects/FrontEnd/Templates/BasicHTML"
+          },
+          {
+            "title": "NavBars",
+            "img": "/Articles/FrontEnd/Templates/NavBarsIcon.png",
+            "directUrl": "/Subjects/FrontEnd/Templates/NavBars"
+          },
+          {
+            "title": "Layouts",
+            "img": "/Articles/FrontEnd/Templates/LayoutsIcon.png",
+            "directUrl": "/Subjects/FrontEnd/Templates/Layouts"
+          },
+          {
+            "title": "Footers",
+            "img": "/Articles/FrontEnd/Templates/FootersIcon.png",
+            "directUrl": "/Subjects/FrontEnd/Templates/Footers"
+          },
+          {
+            "title": "Forms",
+            "img": "/Articles/FrontEnd/Templates/FormsIcon.png",
+            "directUrl": "/Subjects/FrontEnd/Templates/Forms"
+          },
+          {
+            "title": "Tables",
+            "img": "/Articles/FrontEnd/Templates/TablesIcon.png",
+            "directUrl": "/Subjects/FrontEnd/Templates/Tables"
+          }
+        ]
       }
     ]
   }

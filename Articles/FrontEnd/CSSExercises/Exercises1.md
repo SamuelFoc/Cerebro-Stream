@@ -185,3 +185,7 @@
   </body>
 </html>
 ```
+
+### GitHub Repository
+
+[Here](https://github.com/SamuelFoc/Cerebro-Stream-Projects/tree/main/FrontEnd/CSS/Exercises) you can find some additional files which could be helpful for this lesson.

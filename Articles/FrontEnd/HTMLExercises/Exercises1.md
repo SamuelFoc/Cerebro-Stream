@@ -173,3 +173,7 @@ These examples and exercises should give you a good starting point for learning 
 ![HTML image](/Articles/FrontEnd/HTML/solution3.png "HTML introduction")
 
 I hope these solutions help you understand the concepts better. Good luck!
+
+### GitHub Repository
+
+[Here](https://github.com/SamuelFoc/Cerebro-Stream-Projects/tree/main/FrontEnd/HTML/Exercises) you can find some additional files which could be helpful for this lesson.

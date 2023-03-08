@@ -58,3 +58,7 @@ In this case, the function retrieves the title element using its id, and changes
 Now, when the user loads this web page in a browser and clicks the button, the title will change from "Hello, World!" to "Title Changed".
 
 In the next lesson, we will cover how to use JavaScript to make HTTP requests and work with APIs to retrieve and update data.
+
+### GitHub Repository
+
+[Here](https://github.com/SamuelFoc/Cerebro-Stream-Projects/tree/main/FrontEnd/JS/Project%201) you can find some additional files which could be helpful for this lesson.

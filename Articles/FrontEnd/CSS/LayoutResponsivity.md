@@ -51,31 +51,30 @@ Here's an example of a responsive design that changes the layout of a website wh
 ```css
 /* Default styles */
 .container {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .box {
-width: 30%;
-height: 300px;
-background-color: lightblue;
-margin-bottom: 20px;
+  width: 30%;
+  height: 300px;
+  background-color: lightblue;
+  margin-bottom: 20px;
 }
 
 /* Media query styles */
 @media (max-width: 800px) {
-.container {
+  .container {
     flex-direction: column;
-}
+  }
 
-.box {
+  .box {
     width: 100%;
     height: 200px;
-}
+  }
 }
 ```
-        
 
 ![CSS image](/Articles/FrontEnd/CSS/layout5.png "CSS introduction")
 
@@ -90,3 +89,7 @@ The media query checks the screen size using **max-width: 800px**. If the screen
 Try creating a simple layout using floating elements, display properties, and/or Flexbox or Grid. Then, add media queries to make the layout responsive.
 
 In the next lesson, we will cover HTML and CSS best practices, such as using semantic HTML and writing maintainable CSS code.
+
+### GitHub Repository
+
+[Here](https://github.com/SamuelFoc/Cerebro-Stream-Projects/tree/main/FrontEnd/HTML/Layout) and [here](https://github.com/SamuelFoc/Cerebro-Stream-Projects/tree/main/FrontEnd/HTML/Responsive) you can find some additional files which could be helpful for this lesson.

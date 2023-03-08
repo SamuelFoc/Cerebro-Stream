@@ -7,14 +7,32 @@ In the previous lesson, we covered the basics of HTML and why it is important fo
 HTML elements are the building blocks of a web page. They define the structure and content of a page, such as headings, paragraphs, and lists. Some common HTML elements include:
 
 ```html
-    <h1> to <h6> for headings
-    <p> for paragraphs
-    <ul> and <li> for unordered lists
-    <ol> and <li> for ordered lists
-    <a> for links
-    <img> for images
-    <div> for sections of content
-    <form> for forms
+<h1>
+  to
+  <h6>
+    for headings
+    <p>for paragraphs</p>
+    <ul>
+      and
+      <li>
+        for unordered lists
+        <ol>
+          and
+          <li>
+            for ordered lists
+            <a>
+              for links <img /> for images
+              <div>
+                for sections of content
+                <form>for forms</form>
+              </div></a
+            >
+          </li>
+        </ol>
+      </li>
+    </ul>
+  </h6>
+</h1>
 ```
 
 ### HTML Attributes
@@ -22,11 +40,16 @@ HTML elements are the building blocks of a web page. They define the structure a
 HTML elements can have attributes that provide additional information about the element. Attributes are added to an element in the opening tag and are used to modify the behavior or appearance of an element. Some common HTML attributes include:
 
 ```html
-- <div class=""> for defining the styles for an element
-- <div id=""> for defining a unique identifier for an element
-- <img src=""> for defining the source of an image
-- <link href=""> for defining the destination of a link
-- <img alt=""> for defining alternative text for an image
+-
+<div class="">
+  for defining the styles for an element -
+  <div id="">
+    for defining a unique identifier for an element - <img src="" /> for
+    defining the source of an image - <link href="" /> for defining the
+    destination of a link - <img alt="" /> for defining alternative text for an
+    image
+  </div>
+</div>
 ```
 
 ![HTML image](/Articles/FrontEnd/HTML/attributes.png "HTML introduction")
@@ -36,3 +59,7 @@ HTML elements can have attributes that provide additional information about the 
 To learn more about HTML elements and attributes, try creating a simple web page using the elements and attributes listed above. You can also try modifying the attributes to see how they affect the appearance of the page.
 
 In the next lesson, we will cover the basics of Table elements. For now, focus on understanding HTML elements and attributes and get comfortable using them in your own web pages.
+
+### GitHub Repository
+
+[Here](https://github.com/SamuelFoc/Cerebro-Stream-Projects/blob/main/FrontEnd/HTML/2%20elements.html) you can find some additional files which could be helpful for this lesson.

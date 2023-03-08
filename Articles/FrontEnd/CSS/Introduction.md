@@ -7,9 +7,9 @@ CSS (Cascading Style Sheets) is used to style HTML pages. With CSS, you can cont
 CSS is added to a HTML page using the &lt;style&gt; element, which is placed inside the &lt;head&gt; of the HTML document. The CSS code is written using a series of rules, each consisting of a selector and a declaration block. For example:
 
 ```css
-    h1 {
-        color: red;
-    }
+h1 {
+  color: red;
+}
 ```
 
 In this example, the selector h1 selects the &lt;h1&gt; element, and the declaration block specifies the color property with a value of red.
@@ -43,21 +43,21 @@ Example:
 
 ```css
 .class h1 {
-    color: "red";
-    background-color: "blue";
-    font-size: 10px;
+  color: "red";
+  background-color: "blue";
+  font-size: 10px;
 }
 
 .classOfh1Element {
-    color: "red";
-    background-color: "blue";
-    font-size: 10px;
+  color: "red";
+  background-color: "blue";
+  font-size: 10px;
 }
 
 #idOfh1Element {
-    color: "red";
-    background-color: "blue";
-    font-size: 10px;
+  color: "red";
+  background-color: "blue";
+  font-size: 10px;
 }
 ```
 
@@ -76,3 +76,7 @@ CSS uses a cascading system to determine which styles are applied to an element.
 Try styling a simple HTML page using CSS. Experiment with different selectors, properties, and values to see how they affect the appearance of the page.
 
 In the next lesson, we will cover more advanced CSS topics, such as layout and responsive design.
+
+### GitHub Repository
+
+[Here](https://github.com/SamuelFoc/Cerebro-Stream-Projects/tree/main/FrontEnd/HTML/Start) and [here](https://github.com/SamuelFoc/Cerebro-Stream-Projects/tree/main/FrontEnd/HTML/Inheritance) you can find some additional files which could be helpful for this lesson.

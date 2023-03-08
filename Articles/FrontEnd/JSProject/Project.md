@@ -87,29 +87,40 @@ You can add or modify these styles to fit your specific design needs.
 Here's a simple JavaScript template for making API calls using the fetch function:
 
 ```javascript
-const API_KEY = "your-api-key";
-const API_URL = "http://api.openweathermap.org/data/2.5/forecast?q=";
+const API_URL = "https://api.open-meteo.com/v1/forecast?";
 
+// Get all inputs and outputs
 const cityForm = document.querySelector("#city-form");
-const cityInput = document.querySelector("#city-input");
+const longtitude = document.querySelector("#longtitude");
+const latitude = document.querySelector("#latitude");
 const forecastContainer = document.querySelector("#forecast-container");
 
+// Add event listener on submit button
 cityForm.addEventListener("submit", async (event) => {
+  // Prevent default behavior (refreshing the page) of the submit button
   event.preventDefault();
-  const city = cityInput.value;
-  const response = await fetch(`${API_URL}${city}&appid=${API_KEY}`);
+
+  // Get longtitude and latitude
+  const lon = longtitude.value;
+  const lat = latitude.value;
+
+  // Fetch external API for weather data
+  const response = await fetch(
+    `${API_URL}latitude=${lat}&longitude=${lon}&hourly=temperature_2m`
+  );
   const data = await response.json();
+
+  // Display forecast data using our custom function from below
   displayForecast(data);
 });
 
 function displayForecast(data) {
-  const forecast = data.list;
+  const forecast = data.hourly;
   let html = "";
-  for (let i = 0; i < forecast.length; i++) {
+  for (let i = 0; i < forecast.time.length; i++) {
     html += `<div>
-            <h2>${new Date(forecast[i].dt * 1000).toLocaleDateString()}</h2>
-            <p>Temperature: ${forecast[i].main.temp}</p>
-            <p>Description: ${forecast[i].weather[0].description}</p>
+            <h2>${new Date(forecast.time[i]).toLocaleString()}</h2>
+            <p>Temperature: ${forecast.temperature_2m[i]}</p>
             </div>`;
   }
   forecastContainer.innerHTML = html;
@@ -119,3 +130,7 @@ function displayForecast(data) {
 This template includes a constant for the **API key** and **URL**, as well as constants for the **form**, **input**, and **forecast** container elements. The template uses event handling to listen for the form submit event and make an API request for the weather forecast for the entered city. The fetch function returns a promise that resolves to the response from the API, which is then converted to JSON data using .json(). The JSON data is then passed to the displayForecast function to create HTML for the forecast and update the contents of the forecast container.
 
 This is just a simple example and you can modify the code to fit your specific needs and the structure of the data returned by the API. You should also replace **"your-api-key"** with your actual **API key**.
+
+### GitHub Repository
+
+[Here](https://github.com/SamuelFoc/Cerebro-Stream-Projects/tree/main/FrontEnd/JS/Project%202) you can find some additional files which could be helpful for this lesson.

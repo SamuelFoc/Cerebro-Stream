@@ -85,3 +85,7 @@
   });
 </script>
 ```
+
+### GitHub Repository
+
+[Here](https://github.com/SamuelFoc/Cerebro-Stream-Projects/tree/main/FrontEnd/JS/Exercises) you can find some additional files which could be helpful for this lesson.
