@@ -12,9 +12,12 @@ export default function Footer() {
           <strong className={styles.strongText}>
             LinkedIn profile of maintainer
           </strong>
-          <p className={styles.basicText}>
-            https://linkedin.com/samuel-sipikal/in
-          </p>
+          <a
+            href="https://linkedin.com/in/samuel-šipikal"
+            className={styles.basicText}
+          >
+            <img width={"50px"} src="/images/linkedinIcon.png" alt="LinkedIn" />
+          </a>
         </div>
         <div className={styles.column}>
           <strong className={styles.strongText}>Used sources</strong>
