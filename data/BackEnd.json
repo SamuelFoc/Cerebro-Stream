@@ -145,7 +145,7 @@
         "articles": [
           {
             "title": "Introduction",
-            "img": "/images/RestApiIcon.png",
+            "img": "/images/RESTAPIIcon.png",
             "directUrl": "/Subjects/BackEnd/RESTAPI/Introduction",
             "next": "/Subjects/BackEnd/RESTAPI/Database"
           },
