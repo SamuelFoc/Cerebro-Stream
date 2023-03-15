@@ -2,7 +2,7 @@
 
 React Native uses the same flexbox layout system as the web, but with a few differences. In this lesson, we'll explore how flexbox works in React Native and how you can use it to create flexible and responsive layouts.
 
-### What is Flexbox?
+### What is a Flexbox?
 
 Flexbox is a layout system that allows you to create flexible and responsive layouts without having to rely on fixed sizes or complicated positioning. With flexbox, you can define the size, alignment, and spacing of your elements based on their parent container.
 

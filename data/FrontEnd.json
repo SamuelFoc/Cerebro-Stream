@@ -222,6 +222,13 @@
             "img": "/Articles/FrontEnd/ReactNative/Flexbox.png",
             "directUrl": "/Subjects/FrontEnd/ReactNative/Flexbox",
             "prev": "/Subjects/FrontEnd/ReactNative/Styling",
+            "next": "/Subjects/FrontEnd/ReactNative/Exercise"
+          },
+          {
+            "title": "Exercise",
+            "img": "/Articles/FrontEnd/ReactNative/Exercise.png",
+            "directUrl": "/Subjects/FrontEnd/ReactNative/Exercise",
+            "prev": "/Subjects/FrontEnd/ReactNative/Flexbox",
             "next": "/Subjects/FrontEnd/ReactNative/"
           }
         ]
