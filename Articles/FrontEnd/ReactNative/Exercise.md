@@ -70,3 +70,9 @@ const styles = StyleSheet.create({
 ```
 
 This should give you a simple app that displays a number and two buttons. When you press the buttons, the number should increase or decrease accordingly. From here, you can modify the styling and functionality of the Counter component to suit your needs.
+
+### GitHub Repository
+
+Full solution of the exercise above you can find [here](https://github.com/SamuelFoc/Cerebro-Stream-Projects/tree/main/FrontEnd/ReactNative/Counter).
+
+![Counter App](/Articles/FrontEnd/ReactNative/exercise1.png)
