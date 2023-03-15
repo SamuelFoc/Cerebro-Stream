@@ -100,6 +100,7 @@
   .smallItemList {
     width: 100%;
     position: absolute;
+    z-index: 3;
 
     background-color: var(--sm-dropdown-bg-color);
     backdrop-filter: blur(8px);
